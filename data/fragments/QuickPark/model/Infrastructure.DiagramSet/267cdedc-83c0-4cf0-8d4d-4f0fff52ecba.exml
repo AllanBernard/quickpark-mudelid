@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="QuickPark" version="4">
+  <OBJECT>
+    <ID name="QuickPark" mc="Infrastructure.DiagramSet" uid="267cdedc-83c0-4cf0-8d4d-4f0fff52ecba"/>
+    <PID name="QuickPark" mc="Standard.Project" uid="42645cd3-315a-4cf4-b5d9-d2ad5ff710b2"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[QuickPark]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>
