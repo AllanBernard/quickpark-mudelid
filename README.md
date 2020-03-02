@@ -1,4 +1,4 @@
-# quickpark-mudelid
+# Mudeli esimene alla laadimine
 
 1. Tõmba ja installi endale GitHub Desktop
   https://desktop.github.com/
@@ -13,12 +13,23 @@
 6. Tee endale oma isiklik haru, vali GitHub Desktop'i menüüst "Branch" punkt "New Branch"
 7. Sisesta enda haru nimi, näiteks "allani-haru" ja kliki "create branch"
 
+# mudeli uuendamine ja töö alustamine
+
+Kui Allan (või sa ise kui oskad) oled oma mudeli Master haru pealt uuendanud siis tuleb see ka sinu arvutisse laadida.
+
+1. Ava GitHub Desktop ja kliki nuppu "Fetch origin" ülemisel menüüribal.
+
 (ava projekt modelio's ja asu tööle... kui oled töö lõpetanud, salvesta ja lükka kood üles)
 
-8. Esmalt salvesta ja sulge projekt!! Muidu ei saa Git seda kätte
 
-9. GitHub Desktopi vaates kuvatakse kõik failid mida oled muutnud (mida Modelio muutis). Nende all on kastike kuhu saad sisestada muutuse kokkuvõtte (kohustuslik) ja detailise kirejlduse (vabatahtlik).
+# Salvestamine ja üles laadimine.
 
-10. Sisesta mingi mõistlik kokkuvõte, näiteks "lisasin puudu olevad sündmused"
+1. Esmalt salvesta ja sulge projekt!! Muidu ei saa Git seda kätte
 
-11. Kliki selle all olevat nuppu "Commit to..." (haruks peaks olema sinu haru).
+2. GitHub Desktopi vaates kuvatakse kõik failid mida oled muutnud (mida Modelio muutis). Nende all on kastike kuhu saad sisestada muutuse kokkuvõtte (kohustuslik) ja detailise kirejlduse (vabatahtlik).
+
+3. Sisesta mingi mõistlik kokkuvõte, näiteks "lisasin puudu olevad sündmused"
+
+4. Kliki selle all olevat nuppu "Commit to..." (haruks peaks olema sinu haru).
+
+5. Vali pea-aknast nupp "Publish branch"
