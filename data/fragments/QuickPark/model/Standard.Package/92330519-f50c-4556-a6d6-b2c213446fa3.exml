@@ -14,23 +14,7 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="äriinfo" mc="Standard.Package" uid="207a4ae3-903b-463c-b584-c46a02f81518"/>
-      </COMP>
-      <COMP relation="Descriptor">
-        <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="133dc532-0cbf-492d-9d33-b66ae6545160"/>
-          <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[Laura]]></ATT>
-            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
-            <ATT name="Name"></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Model">
-              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
+        <COMPID name="Äriinfo" mc="Standard.Package" uid="207a4ae3-903b-463c-b584-c46a02f81518"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
