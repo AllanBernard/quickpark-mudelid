@@ -32,6 +32,10 @@
         <COMPID name="Parkimise tuvastamine" mc="Standard.Class" uid="ce667091-784b-410e-ad9f-0b275efdb56e"/>
         <COMPID name="Registrimärgi tuvastamine" mc="Standard.Class" uid="d18cb191-6e16-4706-a21b-a2c61e96df4c"/>
         <COMPID name="Arve" mc="Standard.Class" uid="3897d49f-af47-4132-bada-d0df6f17bd00"/>
+        <COMPID name="Arverida" mc="Standard.Class" uid="71b4ce0f-6c7b-4105-8585-4746f4d05999"/>
+        <COMPID name="Vaie" mc="Standard.Class" uid="6022275e-7bca-4c7a-904d-ac7345af4c7b"/>
+        <COMPID name="Logikirje" mc="Standard.Class" uid="b26adc0c-fbed-444f-84c3-d836a9247096"/>
+        <COMPID name="Aruanne" mc="Standard.Class" uid="dcbd1996-79da-4944-b247-b8791965c160"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Äriinfo mudel" mc="Standard.ClassDiagram" uid="b54dcdc5-ff21-4c44-9726-0f93962dbe08"/>
