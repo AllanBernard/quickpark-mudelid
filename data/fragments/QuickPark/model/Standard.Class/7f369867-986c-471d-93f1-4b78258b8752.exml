@@ -17,7 +17,7 @@
     <DEPENDENCIES>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="" mc="Standard.AssociationEnd" uid="97a06b58-53a8-47c6-a4f2-a8ea424a812f"/>
+          <ID name="kuulub" mc="Standard.AssociationEnd" uid="97a06b58-53a8-47c6-a4f2-a8ea424a812f"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsComposition</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -30,7 +30,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"></ATT>
+            <ATT name="Name"><![CDATA[kuulub]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -39,7 +39,7 @@
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="47acab31-a0a0-4b53-87fc-fc999b2952af"/>
+                <ID name="omab" mc="Standard.AssociationEnd" uid="47acab31-a0a0-4b53-87fc-fc999b2952af"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -52,12 +52,12 @@
                   <ATT name="Visibility">Public</ATT>
                   <ATT name="IsClass">false</ATT>
                   <ATT name="IsAbstract">false</ATT>
-                  <ATT name="Name"></ATT>
+                  <ATT name="Name"><![CDATA[omab]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="" mc="Standard.AssociationEnd" uid="97a06b58-53a8-47c6-a4f2-a8ea424a812f"/>
+                    <COMPID name="kuulub" mc="Standard.AssociationEnd" uid="97a06b58-53a8-47c6-a4f2-a8ea424a812f"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
@@ -75,10 +75,26 @@
             <COMP relation="Association">
               <COMPID name="R01" mc="Standard.Association" uid="e1b5d351-d3e4-42d8-8643-e9b2598231fb"/>
             </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="a3f141a6-c59b-43c8-b890-3f1ed70c5694"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[<Enter note text here>]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Standard.AssociationEnd" uid="89be5ee1-ddf2-49e5-85aa-3dbe35b958e3"/>
+          <ID name="on seatud" mc="Standard.AssociationEnd" uid="89be5ee1-ddf2-49e5-85aa-3dbe35b958e3"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -91,7 +107,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"></ATT>
+            <ATT name="Name"><![CDATA[on seatud]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -118,7 +134,7 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="" mc="Standard.AssociationEnd" uid="89be5ee1-ddf2-49e5-85aa-3dbe35b958e3"/>
+                    <COMPID name="on seatud" mc="Standard.AssociationEnd" uid="89be5ee1-ddf2-49e5-85aa-3dbe35b958e3"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
@@ -139,7 +155,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Standard.AssociationEnd" uid="1edb67dc-957c-4e58-a08f-58891468301d"/>
+          <ID name="on määratud" mc="Standard.AssociationEnd" uid="1edb67dc-957c-4e58-a08f-58891468301d"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -152,7 +168,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"></ATT>
+            <ATT name="Name"><![CDATA[on määratud]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -179,7 +195,7 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="" mc="Standard.AssociationEnd" uid="1edb67dc-957c-4e58-a08f-58891468301d"/>
+                    <COMPID name="on määratud" mc="Standard.AssociationEnd" uid="1edb67dc-957c-4e58-a08f-58891468301d"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
