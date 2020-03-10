@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="big decimal" version="4">
+  <OBJECT>
+    <ID name="big decimal" mc="Standard.DataType" uid="c69a4ef6-1ae7-488b-a8a3-6f0f2e05922d"/>
+    <PID name="andmeolemid" mc="Standard.Package" uid="f65bc687-cbc8-476c-9e0a-4dab60b9c80b"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">true</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[big decimal]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -38,7 +38,6 @@
         <COMPID name="Aruanne" mc="Standard.Class" uid="dcbd1996-79da-4944-b247-b8791965c160"/>
         <COMPID name="Parkimise aegjada" mc="Standard.Class" uid="ffea2cc7-0ae9-4d7f-af7e-7269de99fb7c"/>
         <COMPID name="Parkimise intervall" mc="Standard.Class" uid="7f0c3ac5-35e4-4915-bdf4-e0e8687a0998"/>
-        <COMPID name="Timestamp" mc="Standard.DataType" uid="2ccd4169-5e91-434e-90ee-165e867950a7"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Äriinfo mudel" mc="Standard.ClassDiagram" uid="b54dcdc5-ff21-4c44-9726-0f93962dbe08"/>

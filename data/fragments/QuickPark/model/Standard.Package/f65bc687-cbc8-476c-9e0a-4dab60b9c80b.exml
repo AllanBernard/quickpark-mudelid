@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="andmeolemid" version="4">
+  <OBJECT>
+    <ID name="andmeolemid" mc="Standard.Package" uid="f65bc687-cbc8-476c-9e0a-4dab60b9c80b"/>
+    <PID name="quickpark" mc="Standard.Package" uid="92330519-f50c-4556-a6d6-b2c213446fa3"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[andmeolemid]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="timestamp" mc="Standard.DataType" uid="2ccd4169-5e91-434e-90ee-165e867950a7"/>
+        <COMPID name="time" mc="Standard.DataType" uid="4ccdd8a6-5600-4d97-a52d-a81cf3e47dab"/>
+        <OBJECT>
+          <ID name="weekday" mc="Standard.Enumeration" uid="342c7c61-61fe-44f4-a601-1ebfeb28d262"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[weekday]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="big decimal" mc="Standard.DataType" uid="c69a4ef6-1ae7-488b-a8a3-6f0f2e05922d"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
