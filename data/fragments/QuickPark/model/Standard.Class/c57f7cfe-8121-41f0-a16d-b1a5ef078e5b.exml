@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Roll" version="4">
   <OBJECT>
     <ID name="Roll" mc="Standard.Class" uid="c57f7cfe-8121-41f0-a16d-b1a5ef078e5b"/>
-    <PID name="äriinfo" mc="Standard.Package" uid="207a4ae3-903b-463c-b584-c46a02f81518"/>
+    <PID name="äriinfo olemid" mc="Standard.Package" uid="923d2d26-aea3-4486-b7a7-9300a995b163"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>

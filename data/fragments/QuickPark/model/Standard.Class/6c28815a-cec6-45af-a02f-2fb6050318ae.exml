@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Kasutajakonto" version="4">
   <OBJECT>
     <ID name="Kasutajakonto" mc="Standard.Class" uid="6c28815a-cec6-45af-a02f-2fb6050318ae"/>
-    <PID name="äriinfo" mc="Standard.Package" uid="207a4ae3-903b-463c-b584-c46a02f81518"/>
+    <PID name="äriinfo olemid" mc="Standard.Package" uid="923d2d26-aea3-4486-b7a7-9300a995b163"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>

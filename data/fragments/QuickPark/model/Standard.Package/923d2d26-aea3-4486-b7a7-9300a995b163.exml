@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="äriinfo olemid" version="4">
+  <OBJECT>
+    <ID name="äriinfo olemid" mc="Standard.Package" uid="923d2d26-aea3-4486-b7a7-9300a995b163"/>
+    <PID name="quickpark" mc="Standard.Package" uid="92330519-f50c-4556-a6d6-b2c213446fa3"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[äriinfo olemid]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Parkla" mc="Standard.Class" uid="7f369867-986c-471d-93f1-4b78258b8752"/>
+        <COMPID name="Parkimiskoht" mc="Standard.Class" uid="7024a64c-3629-47b2-a8c7-f096266e1d82"/>
+        <COMPID name="Parkimiskorraldus" mc="Standard.Class" uid="e396fa5c-3ed1-439c-a535-0253c91b8c5b"/>
+        <COMPID name="Hinnaklass" mc="Standard.Class" uid="15dd661c-e351-4d62-a14b-2e1b8d882897"/>
+        <COMPID name="Hind" mc="Standard.Class" uid="95547bd3-1b23-4c92-a701-5a93b4b143e2"/>
+        <COMPID name="Kaamera" mc="Standard.Class" uid="dee813ae-ec06-44ad-981d-8dc990cb8e57"/>
+        <COMPID name="Tõkkepuu" mc="Standard.Class" uid="5208fa8a-cd20-4b33-a722-d9eeccead53b"/>
+        <COMPID name="Klient" mc="Standard.Class" uid="8875515b-36e0-42f9-b802-c7e4047e6571"/>
+        <COMPID name="Kasutaja" mc="Standard.Class" uid="f0788c33-4d8f-423f-b02a-e262b83e86cc"/>
+        <COMPID name="Kasutajakonto" mc="Standard.Class" uid="6c28815a-cec6-45af-a02f-2fb6050318ae"/>
+        <COMPID name="Vastutav omanik" mc="Standard.Class" uid="bce8c35b-bfae-4089-a29b-baa37554a062"/>
+        <COMPID name="Roll" mc="Standard.Class" uid="c57f7cfe-8121-41f0-a16d-b1a5ef078e5b"/>
+        <COMPID name="Privileeg" mc="Standard.Class" uid="3f952d1d-704f-4da1-bd08-ff299663b798"/>
+        <COMPID name="Sõiduk" mc="Standard.Class" uid="e57391db-2c85-4544-a865-285e0f161028"/>
+        <COMPID name="Parkimine" mc="Standard.Class" uid="89a6d9f6-9b13-417e-a203-7e32c3c4c20d"/>
+        <COMPID name="Parkimise tuvastamine" mc="Standard.Class" uid="ce667091-784b-410e-ad9f-0b275efdb56e"/>
+        <COMPID name="Registrimärgi tuvastamine" mc="Standard.Class" uid="d18cb191-6e16-4706-a21b-a2c61e96df4c"/>
+        <COMPID name="Arve" mc="Standard.Class" uid="3897d49f-af47-4132-bada-d0df6f17bd00"/>
+        <COMPID name="Arverida" mc="Standard.Class" uid="71b4ce0f-6c7b-4105-8585-4746f4d05999"/>
+        <COMPID name="Vaie" mc="Standard.Class" uid="6022275e-7bca-4c7a-904d-ac7345af4c7b"/>
+        <COMPID name="Logikirje" mc="Standard.Class" uid="b26adc0c-fbed-444f-84c3-d836a9247096"/>
+        <COMPID name="Aruanne" mc="Standard.Class" uid="dcbd1996-79da-4944-b247-b8791965c160"/>
+        <COMPID name="Parkimise aegjada" mc="Standard.Class" uid="ffea2cc7-0ae9-4d7f-af7e-7269de99fb7c"/>
+        <COMPID name="Parkimise intervall" mc="Standard.Class" uid="7f0c3ac5-35e4-4915-bdf4-e0e8687a0998"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

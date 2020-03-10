@@ -14,8 +14,9 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="äriinfo" mc="Standard.Package" uid="207a4ae3-903b-463c-b584-c46a02f81518"/>
+        <COMPID name="mudelid" mc="Standard.Package" uid="207a4ae3-903b-463c-b584-c46a02f81518"/>
         <COMPID name="andmeolemid" mc="Standard.Package" uid="f65bc687-cbc8-476c-9e0a-4dab60b9c80b"/>
+        <COMPID name="äriinfo olemid" mc="Standard.Package" uid="923d2d26-aea3-4486-b7a7-9300a995b163"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
