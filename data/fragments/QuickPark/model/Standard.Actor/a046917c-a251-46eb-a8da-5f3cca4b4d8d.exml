@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Andmebaas" version="4">
   <OBJECT>
     <ID name="Andmebaas" mc="Standard.Actor" uid="a046917c-a251-46eb-a8da-5f3cca4b4d8d"/>
-    <PID name="mudelid" mc="Standard.Package" uid="207a4ae3-903b-463c-b584-c46a02f81518"/>
+    <PID name="aktorid" mc="Standard.Package" uid="9b36fc91-690b-45da-8ac7-ccd1c32409d8"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
       <ATT name="IsAbstract">false</ATT>

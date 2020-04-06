@@ -17,6 +17,10 @@
         <COMPID name="mudelid" mc="Standard.Package" uid="207a4ae3-903b-463c-b584-c46a02f81518"/>
         <COMPID name="andmeolemid" mc="Standard.Package" uid="f65bc687-cbc8-476c-9e0a-4dab60b9c80b"/>
         <COMPID name="äriinfo olemid" mc="Standard.Package" uid="923d2d26-aea3-4486-b7a7-9300a995b163"/>
+        <COMPID name="aktorid" mc="Standard.Package" uid="9b36fc91-690b-45da-8ac7-ccd1c32409d8"/>
+        <COMPID name="kasutusmallid" mc="Standard.Package" uid="8d8c701c-f6b1-4f65-88d1-1703ae5ff0ae"/>
+        <COMPID name="seosed" mc="Standard.Package" uid="0ce36462-4bd1-45e1-bcf7-9a106a7c19fb"/>
+        <COMPID name="komponendid" mc="Standard.Package" uid="963621f8-18c7-4847-8d2d-919180374989"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

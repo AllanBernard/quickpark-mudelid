@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="kasutusmallid" version="4">
+  <OBJECT>
+    <ID name="kasutusmallid" mc="Standard.Package" uid="8d8c701c-f6b1-4f65-88d1-1703ae5ff0ae"/>
+    <PID name="quickpark" mc="Standard.Package" uid="92330519-f50c-4556-a6d6-b2c213446fa3"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[kasutusmallid]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Intervallide salvestamine" mc="Standard.UseCase" uid="e17d6a66-5662-40d6-b210-640d01fcf5c9"/>
+        <COMPID name="Aegjadade koostamine" mc="Standard.UseCase" uid="9cd8deb8-5054-4f86-bfa1-4f1f65b9131e"/>
+        <COMPID name="Maksumuse arvutamine" mc="Standard.UseCase" uid="61a04629-59a2-441d-87b5-b7fc8d08bb6b"/>
+        <COMPID name="Arve koostamine" mc="Standard.UseCase" uid="b8078393-d2ca-4b6f-ad96-f023a7edee1f"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

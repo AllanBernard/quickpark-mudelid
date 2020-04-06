@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Parkimise tuvastamise IS" version="4">
   <OBJECT>
     <ID name="Parkimise tuvastamise IS" mc="Standard.Actor" uid="1c78bae2-b2dc-4554-a105-bd574d2810b3"/>
-    <PID name="mudelid" mc="Standard.Package" uid="207a4ae3-903b-463c-b584-c46a02f81518"/>
+    <PID name="aktorid" mc="Standard.Package" uid="9b36fc91-690b-45da-8ac7-ccd1c32409d8"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
       <ATT name="IsAbstract">false</ATT>
