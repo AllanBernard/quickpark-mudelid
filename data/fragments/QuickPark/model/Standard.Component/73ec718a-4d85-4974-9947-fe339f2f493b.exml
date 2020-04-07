@@ -51,7 +51,6 @@
       </COMP>
       <COMP relation="OwnedElement">
         <COMPID name="Parklate haldus" mc="Standard.Component" uid="e17882b5-668b-4b1f-a2d3-d570c7fb4239"/>
-        <COMPID name="Tõkkepuude kontrollsüsteem" mc="Standard.Component" uid="c80c949b-aeb9-4408-9c12-97eb1d11846c"/>
         <COMPID name="Hindade haldus" mc="Standard.Component" uid="e602dae5-8aad-4b18-ac66-a43743334c3d"/>
       </COMP>
     </DEPENDENCIES>
