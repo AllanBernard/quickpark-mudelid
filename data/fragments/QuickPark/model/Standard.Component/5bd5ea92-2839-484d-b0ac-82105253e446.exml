@@ -108,7 +108,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="DependsOn">
-              <ID name="IntervalData" mc="Standard.Component" uid="32bdbb54-d994-4338-85dd-2a40dcf2debb"/>
+              <ID name="Intervall andmete skeema" mc="Standard.Component" uid="32bdbb54-d994-4338-85dd-2a40dcf2debb"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>

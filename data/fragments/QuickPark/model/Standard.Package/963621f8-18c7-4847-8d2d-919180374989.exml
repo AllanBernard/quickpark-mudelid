@@ -22,6 +22,8 @@
         <COMPID name="DBMS" mc="Standard.Component" uid="8a42e1a5-510a-4d95-98c4-f72fb1a0a447"/>
         <COMPID name="WEB Frontend" mc="Standard.Component" uid="fdebadd9-bd68-4782-a952-8d39222988d1"/>
         <COMPID name="Interval Data Management" mc="Standard.Component" uid="5bd5ea92-2839-484d-b0ac-82105253e446"/>
+        <COMPID name="Kasutajaliides" mc="Standard.Component" uid="2980f8ce-01c1-4258-8c4d-a5e0ad8f1dbe"/>
+        <COMPID name="Tõkkepuude kontrollsüsteem" mc="Standard.Component" uid="c80c949b-aeb9-4408-9c12-97eb1d11846c"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
