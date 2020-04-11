@@ -1,20 +1,20 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="NGINX Web server" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Linux Alpine" version="4">
   <OBJECT>
-    <ID name="NGINX Web server" mc="Standard.Node" uid="871654a0-9071-46a0-a452-ad1593efd7c2"/>
+    <ID name="Linux Alpine" mc="Standard.Node" uid="699266fd-6083-40d1-8e97-b2b721a4273a"/>
     <PID name="riistvara" mc="Standard.Package" uid="98a8da37-14f4-47d1-9e68-2d8712962897"/>
     <ATTRIBUTES>
       <ATT name="IsAbstract">false</ATT>
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[NGINX Web server]]></ATT>
+      <ATT name="Name"><![CDATA[Linux Alpine]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="" mc="Standard.AssociationEnd" uid="d771e0b6-7b1a-45a5-8dcc-1d2c4d49a417"/>
+          <ID name="" mc="Standard.AssociationEnd" uid="1b23d6f6-abbe-4e07-875a-0af6f78cf1d2"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -32,11 +32,11 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Linux Alpine" mc="Standard.Node" uid="8934edc6-ef21-47bc-b09f-5544f9cd89ea"/>
+              <ID name="NGINX Web server" mc="Standard.Node" uid="871654a0-9071-46a0-a452-ad1593efd7c2"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="d91aea9c-4d87-42b4-a969-faaf4aeb004f"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="f1124d37-943a-4fbd-8767-204385913f3f"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -54,11 +54,11 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="" mc="Standard.AssociationEnd" uid="d771e0b6-7b1a-45a5-8dcc-1d2c4d49a417"/>
+                    <COMPID name="" mc="Standard.AssociationEnd" uid="1b23d6f6-abbe-4e07-875a-0af6f78cf1d2"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="TCP/IP" mc="Standard.Association" uid="2e365a73-ea5a-4624-a2ff-3eed7e846945"/>
+                      <ID name="TCP/IP" mc="Standard.Association" uid="9273f662-7a5f-4ac0-8a92-5411595679ee"/>
                       <ATTRIBUTES>
                         <ATT name="Name"><![CDATA[TCP/IP]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -70,47 +70,11 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="TCP/IP" mc="Standard.Association" uid="2e365a73-ea5a-4624-a2ff-3eed7e846945"/>
-            </COMP>
-          </DEPENDENCIES>
-        </OBJECT>
-        <REFOBJ>
-          <ID name="" mc="Standard.AssociationEnd" uid="88de418d-c3cc-4013-8234-7ddb63437a10"/>
-        </REFOBJ>
-        <OBJECT>
-          <ID name="" mc="Standard.AssociationEnd" uid="b06ef7ff-276e-432c-86b7-9d5bfe5da6bf"/>
-          <ATTRIBUTES>
-            <ATT name="Aggregation">KindIsAssociation</ATT>
-            <ATT name="IsChangeable">true</ATT>
-            <ATT name="Changeable">ReadWrite</ATT>
-            <ATT name="IsDerived">false</ATT>
-            <ATT name="IsOrdered">false</ATT>
-            <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"></ATT>
-            <ATT name="MultiplicityMax"></ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="IsClass">false</ATT>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Target">
-              <ID name="Oracle RDBMS" mc="Standard.Node" uid="61b008c3-4cfe-4dac-9134-6dcbfd900eb4"/>
-            </LINK>
-            <COMP relation="Opposite">
-              <REFOBJ>
-                <ID name="" mc="Standard.AssociationEnd" uid="3be0354d-0f41-41ef-8caa-ef235735abdd"/>
-              </REFOBJ>
-            </COMP>
-            <COMP relation="Association">
-              <REFOBJ>
-                <ID name="JDBC" mc="Standard.Association" uid="aacedc49-314c-461a-821b-c3b2e7885417"/>
-              </REFOBJ>
+              <COMPID name="TCP/IP" mc="Standard.Association" uid="9273f662-7a5f-4ac0-8a92-5411595679ee"/>
             </COMP>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="c104ba94-7d77-4467-86a8-17d53c5f5873"/>
+                <ID name="" mc="Infrastructure.Note" uid="e918fcbb-c6d3-43cd-b03a-acf00f2e2a4a"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[<Enter note text here>]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -126,15 +90,9 @@
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
-        <REFOBJ>
-          <ID name="" mc="Standard.AssociationEnd" uid="e3ff2e7c-2666-42b9-a311-b95515fb70cb"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="" mc="Standard.AssociationEnd" uid="285c6890-0a0a-477f-80ca-0562402b2662"/>
-        </REFOBJ>
       </COMP>
       <COMP relation="OwnedElement">
-        <COMPID name="Ingress" mc="Standard.Node" uid="5eabc360-7549-4c7f-9ea8-d56aa80a1d7b"/>
+        <COMPID name="JMS" mc="Standard.Node" uid="43660a61-002a-4c18-889d-ce812b47f656"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

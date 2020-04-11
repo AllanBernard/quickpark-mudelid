@@ -99,20 +99,6 @@
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
-      <COMP relation="DependsOnDependency">
-        <OBJECT>
-          <ID name="" mc="Standard.Usage" uid="4f62021d-bd51-4528-bf5e-a1ebfa90e1af"/>
-          <ATTRIBUTES>
-            <ATT name="Name"></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="DependsOn">
-              <ID name="Intervall andmete skeema" mc="Standard.Component" uid="32bdbb54-d994-4338-85dd-2a40dcf2debb"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-      </COMP>
     </DEPENDENCIES>
   </OBJECT>
 </EXT>

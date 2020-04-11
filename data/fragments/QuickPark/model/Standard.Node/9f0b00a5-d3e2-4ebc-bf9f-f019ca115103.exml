@@ -1,128 +1,101 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Linux Alpine Java" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Linux Alpine" version="4">
   <OBJECT>
-    <ID name="Linux Alpine Java" mc="Standard.Node" uid="9f0b00a5-d3e2-4ebc-bf9f-f019ca115103"/>
+    <ID name="Linux Alpine" mc="Standard.Node" uid="9f0b00a5-d3e2-4ebc-bf9f-f019ca115103"/>
     <PID name="riistvara" mc="Standard.Package" uid="98a8da37-14f4-47d1-9e68-2d8712962897"/>
     <ATTRIBUTES>
       <ATT name="IsAbstract">false</ATT>
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Linux Alpine Java]]></ATT>
+      <ATT name="Name"><![CDATA[Linux Alpine]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedEnd">
-        <REFOBJ>
-          <ID name="" mc="Standard.AssociationEnd" uid="0c08f8d5-6219-4f70-b803-65d53cdce915"/>
-        </REFOBJ>
-      </COMP>
-      <COMP relation="InternalStructure">
         <OBJECT>
-          <ID name="" mc="Standard.BindableInstance" uid="805fc3df-e203-47fd-81b8-587a1252a6aa"/>
+          <ID name="" mc="Standard.AssociationEnd" uid="0c08f8d5-6219-4f70-b803-65d53cdce915"/>
           <ATTRIBUTES>
-            <ATT name="IsConstant">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Value"></ATT>
+            <ATT name="Aggregation">KindIsAssociation</ATT>
+            <ATT name="IsChangeable">true</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"></ATT>
+            <ATT name="MultiplicityMax"></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
-            <LINK relation="Base">
-              <ID name="KIS" mc="Standard.Component" uid="6040d5cf-1052-4447-83f6-36d322ec2d43"/>
+            <LINK relation="Target">
+              <ID name="NGINX Web server" mc="Standard.Node" uid="871654a0-9071-46a0-a452-ad1593efd7c2"/>
             </LINK>
-            <COMP relation="Part">
+            <COMP relation="Opposite">
               <OBJECT>
-                <ID name="Port" mc="Standard.Port" uid="9d9e59ba-cb4c-4677-85b9-d87d7c9db89e"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="e3ff2e7c-2666-42b9-a311-b95515fb70cb"/>
                 <ATTRIBUTES>
-                  <ATT name="IsBehavior">false</ATT>
-                  <ATT name="IsService">true</ATT>
-                  <ATT name="IsConjugated">false</ATT>
-                  <ATT name="Direction">None</ATT>
-                  <ATT name="IsConstant">false</ATT>
-                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-                  <ATT name="Value"></ATT>
-                  <ATT name="Name"><![CDATA[Port]]></ATT>
+                  <ATT name="Aggregation">KindIsAssociation</ATT>
+                  <ATT name="IsChangeable">true</ATT>
+                  <ATT name="Changeable">ReadWrite</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"></ATT>
+                  <ATT name="MultiplicityMax"></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
-                  <COMP relation="Required">
+                  <LINK relation="Target">
+                    <ID name="Linux Alpine" mc="Standard.Node" uid="9f0b00a5-d3e2-4ebc-bf9f-f019ca115103"/>
+                  </LINK>
+                  <COMP relation="Opposite">
+                    <COMPID name="" mc="Standard.AssociationEnd" uid="0c08f8d5-6219-4f70-b803-65d53cdce915"/>
+                  </COMP>
+                  <COMP relation="Association">
                     <OBJECT>
-                      <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="518a1266-6897-4b29-b34c-8a2f0a1c88c8"/>
+                      <ID name="REST - JSON" mc="Standard.Association" uid="66596159-02ed-4306-b263-6f39ab132745"/>
                       <ATTRIBUTES>
-                        <ATT name="Name"><![CDATA[RequiredInterface]]></ATT>
+                        <ATT name="Name"><![CDATA[REST - JSON]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES></DEPENDENCIES>
                     </OBJECT>
                   </COMP>
-                  <LINK relation="RepresentedFeature">
-                    <REFOBJ>
-                      <ID name="Port" mc="Standard.Port" uid="ed5d8614-3f96-4af4-b33d-259419892aed"/>
-                    </REFOBJ>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Association">
+              <COMPID name="REST - JSON" mc="Standard.Association" uid="66596159-02ed-4306-b263-6f39ab132745"/>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="199d7c7a-30c7-4284-8c91-8e35e80ec8bc"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[<Enter note text here>]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
                   </LINK>
-                  <COMP relation="OwnedNaryEnd">
-                    <OBJECT>
-                      <ID name="" mc="Standard.NaryConnectorEnd" uid="d65648b6-66db-4991-8e2b-fea04f78243a"/>
-                      <ATTRIBUTES>
-                        <ATT name="IsOrdered">false</ATT>
-                        <ATT name="IsUnique">false</ATT>
-                        <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-                        <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
-                        <ATT name="Name"></ATT>
-                        <ATT name="status">1970354901745664</ATT>
-                      </ATTRIBUTES>
-                      <DEPENDENCIES>
-                        <COMP relation="NaryLink">
-                          <OBJECT>
-                            <ID name="" mc="Standard.NaryConnector" uid="981f9166-d6fb-417c-b872-ee1bd8c544ca"/>
-                            <ATTRIBUTES>
-                              <ATT name="Name"></ATT>
-                              <ATT name="status">1970354901745664</ATT>
-                            </ATTRIBUTES>
-                            <DEPENDENCIES>
-                              <COMP relation="NaryLinkEnd">
-                                <COMPID name="" mc="Standard.NaryConnectorEnd" uid="d65648b6-66db-4991-8e2b-fea04f78243a"/>
-                                <OBJECT>
-                                  <ID name="" mc="Standard.NaryConnectorEnd" uid="2078579f-5665-4913-8ebf-bdaafaac75fc"/>
-                                  <ATTRIBUTES>
-                                    <ATT name="IsOrdered">false</ATT>
-                                    <ATT name="IsUnique">false</ATT>
-                                    <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-                                    <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
-                                    <ATT name="Name"></ATT>
-                                    <ATT name="status">1970354901745664</ATT>
-                                  </ATTRIBUTES>
-                                  <DEPENDENCIES>
-                                    <COMP relation="NaryLink">
-                                      <COMPID name="" mc="Standard.NaryConnector" uid="981f9166-d6fb-417c-b872-ee1bd8c544ca"/>
-                                    </COMP>
-                                    <LINK relation="Provider">
-                                      <REFOBJ>
-                                        <ID name="ProvidedInterface" mc="Standard.ProvidedInterface" uid="31f15b7d-2fdf-4e49-8766-c1bde5e28394"/>
-                                      </REFOBJ>
-                                    </LINK>
-                                  </DEPENDENCIES>
-                                </OBJECT>
-                              </COMP>
-                            </DEPENDENCIES>
-                          </OBJECT>
-                        </COMP>
-                        <LINK relation="Consumer">
-                          <REFOBJ>
-                            <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="518a1266-6897-4b29-b34c-8a2f0a1c88c8"/>
-                          </REFOBJ>
-                        </LINK>
-                      </DEPENDENCIES>
-                    </OBJECT>
-                  </COMP>
                 </DEPENDENCIES>
               </OBJECT>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Java 8" mc="Standard.Node" uid="137c848c-35b3-46d7-86a1-5b1cdec73544"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

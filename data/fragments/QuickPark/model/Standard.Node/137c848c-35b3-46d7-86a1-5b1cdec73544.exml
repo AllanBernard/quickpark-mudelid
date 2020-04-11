@@ -1,0 +1,124 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Java 8" version="4">
+  <OBJECT>
+    <ID name="Java 8" mc="Standard.Node" uid="137c848c-35b3-46d7-86a1-5b1cdec73544"/>
+    <PID name="Linux Alpine" mc="Standard.Node" uid="9f0b00a5-d3e2-4ebc-bf9f-f019ca115103"/>
+    <ATTRIBUTES>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Java 8]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="InternalStructure">
+        <OBJECT>
+          <ID name="" mc="Standard.BindableInstance" uid="805fc3df-e203-47fd-81b8-587a1252a6aa"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="KIS" mc="Standard.Component" uid="6040d5cf-1052-4447-83f6-36d322ec2d43"/>
+            </LINK>
+            <COMP relation="Part">
+              <OBJECT>
+                <ID name="Port" mc="Standard.Port" uid="9d9e59ba-cb4c-4677-85b9-d87d7c9db89e"/>
+                <ATTRIBUTES>
+                  <ATT name="IsBehavior">false</ATT>
+                  <ATT name="IsService">true</ATT>
+                  <ATT name="IsConjugated">false</ATT>
+                  <ATT name="Direction">None</ATT>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[Port]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Required">
+                    <OBJECT>
+                      <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="518a1266-6897-4b29-b34c-8a2f0a1c88c8"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"><![CDATA[RequiredInterface]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="RepresentedFeature">
+                    <REFOBJ>
+                      <ID name="Port" mc="Standard.Port" uid="ed5d8614-3f96-4af4-b33d-259419892aed"/>
+                    </REFOBJ>
+                  </LINK>
+                  <COMP relation="OwnedNaryEnd">
+                    <OBJECT>
+                      <ID name="" mc="Standard.NaryConnectorEnd" uid="d65648b6-66db-4991-8e2b-fea04f78243a"/>
+                      <ATTRIBUTES>
+                        <ATT name="IsOrdered">false</ATT>
+                        <ATT name="IsUnique">false</ATT>
+                        <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                        <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="NaryLink">
+                          <OBJECT>
+                            <ID name="" mc="Standard.NaryConnector" uid="981f9166-d6fb-417c-b872-ee1bd8c544ca"/>
+                            <ATTRIBUTES>
+                              <ATT name="Name"></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="NaryLinkEnd">
+                                <COMPID name="" mc="Standard.NaryConnectorEnd" uid="d65648b6-66db-4991-8e2b-fea04f78243a"/>
+                                <OBJECT>
+                                  <ID name="" mc="Standard.NaryConnectorEnd" uid="2078579f-5665-4913-8ebf-bdaafaac75fc"/>
+                                  <ATTRIBUTES>
+                                    <ATT name="IsOrdered">false</ATT>
+                                    <ATT name="IsUnique">false</ATT>
+                                    <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                                    <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                                    <ATT name="Name"></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <COMP relation="NaryLink">
+                                      <COMPID name="" mc="Standard.NaryConnector" uid="981f9166-d6fb-417c-b872-ee1bd8c544ca"/>
+                                    </COMP>
+                                    <LINK relation="Provider">
+                                      <REFOBJ>
+                                        <ID name="ProvidedInterface" mc="Standard.ProvidedInterface" uid="31f15b7d-2fdf-4e49-8766-c1bde5e28394"/>
+                                      </REFOBJ>
+                                    </LINK>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                        <LINK relation="Consumer">
+                          <REFOBJ>
+                            <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="518a1266-6897-4b29-b34c-8a2f0a1c88c8"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

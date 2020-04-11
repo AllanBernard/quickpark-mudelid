@@ -1,21 +1,56 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Linux Alpine RDBMS" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Oracle RDBMS" version="4">
   <OBJECT>
-    <ID name="Linux Alpine RDBMS" mc="Standard.Node" uid="61b008c3-4cfe-4dac-9134-6dcbfd900eb4"/>
+    <ID name="Oracle RDBMS" mc="Standard.Node" uid="61b008c3-4cfe-4dac-9134-6dcbfd900eb4"/>
     <PID name="riistvara" mc="Standard.Package" uid="98a8da37-14f4-47d1-9e68-2d8712962897"/>
     <ATTRIBUTES>
       <ATT name="IsAbstract">false</ATT>
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Linux Alpine RDBMS]]></ATT>
+      <ATT name="Name"><![CDATA[Oracle RDBMS]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedEnd">
-        <REFOBJ>
+        <OBJECT>
           <ID name="" mc="Standard.AssociationEnd" uid="3be0354d-0f41-41ef-8caa-ef235735abdd"/>
-        </REFOBJ>
+          <ATTRIBUTES>
+            <ATT name="Aggregation">KindIsAssociation</ATT>
+            <ATT name="IsChangeable">true</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"></ATT>
+            <ATT name="MultiplicityMax"></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="NGINX Web server" mc="Standard.Node" uid="871654a0-9071-46a0-a452-ad1593efd7c2"/>
+            </LINK>
+            <COMP relation="Opposite">
+              <REFOBJ>
+                <ID name="" mc="Standard.AssociationEnd" uid="b06ef7ff-276e-432c-86b7-9d5bfe5da6bf"/>
+              </REFOBJ>
+            </COMP>
+            <COMP relation="Association">
+              <OBJECT>
+                <ID name="JDBC" mc="Standard.Association" uid="aacedc49-314c-461a-821b-c3b2e7885417"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[JDBC]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
       </COMP>
       <COMP relation="InternalStructure">
         <OBJECT>

@@ -1,0 +1,164 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Mobiilirakendus" version="4">
+  <OBJECT>
+    <ID name="Mobiilirakendus" mc="Standard.Node" uid="cc9a4dd4-a41a-418c-accf-e6b2732da3cf"/>
+    <PID name="riistvara" mc="Standard.Package" uid="98a8da37-14f4-47d1-9e68-2d8712962897"/>
+    <ATTRIBUTES>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Mobiilirakendus]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedEnd">
+        <OBJECT>
+          <ID name="" mc="Standard.AssociationEnd" uid="dbefaa52-6588-4015-ac86-57fd73d5e185"/>
+          <ATTRIBUTES>
+            <ATT name="Aggregation">KindIsAssociation</ATT>
+            <ATT name="IsChangeable">true</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"></ATT>
+            <ATT name="MultiplicityMax"></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="Linux Alpine" mc="Standard.Node" uid="8934edc6-ef21-47bc-b09f-5544f9cd89ea"/>
+            </LINK>
+            <COMP relation="Opposite">
+              <REFOBJ>
+                <ID name="" mc="Standard.AssociationEnd" uid="5145ed9e-21e8-4877-9141-6d4c5a0616fa"/>
+              </REFOBJ>
+            </COMP>
+            <COMP relation="Association">
+              <OBJECT>
+                <ID name="HTTP/HTML" mc="Standard.Association" uid="2cbe49a0-43d0-48d4-b669-b9036aa9f6fe"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[HTTP/HTML]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="InternalStructure">
+        <OBJECT>
+          <ID name="" mc="Standard.BindableInstance" uid="9796a2e1-56c8-445f-9a2a-2883ea080902"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="Kontrolöri mobiililiides" mc="Standard.Component" uid="7f9eef9f-bc4c-448b-a024-1da31a855b3e"/>
+            </LINK>
+            <COMP relation="Part">
+              <OBJECT>
+                <ID name="Port" mc="Standard.Port" uid="986be8ed-d38e-4823-b06a-f9f4bba3b2f0"/>
+                <ATTRIBUTES>
+                  <ATT name="IsBehavior">false</ATT>
+                  <ATT name="IsService">true</ATT>
+                  <ATT name="IsConjugated">false</ATT>
+                  <ATT name="Direction">None</ATT>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[Port]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Required">
+                    <OBJECT>
+                      <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="8c080191-ab34-4c1f-ab25-aa689edf618b"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"><![CDATA[RequiredInterface]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="RepresentedFeature">
+                    <REFOBJ>
+                      <ID name="Port" mc="Standard.Port" uid="435373ea-b6e2-42e2-859e-4c13c8bc98da"/>
+                    </REFOBJ>
+                  </LINK>
+                  <COMP relation="OwnedNaryEnd">
+                    <OBJECT>
+                      <ID name="" mc="Standard.NaryConnectorEnd" uid="d9c4c247-6451-4141-9e16-db9084cec611"/>
+                      <ATTRIBUTES>
+                        <ATT name="IsOrdered">false</ATT>
+                        <ATT name="IsUnique">false</ATT>
+                        <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                        <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="NaryLink">
+                          <OBJECT>
+                            <ID name="" mc="Standard.NaryConnector" uid="a8d7270d-b3ed-40c5-b350-66fbb08a10a9"/>
+                            <ATTRIBUTES>
+                              <ATT name="Name"></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="NaryLinkEnd">
+                                <COMPID name="" mc="Standard.NaryConnectorEnd" uid="d9c4c247-6451-4141-9e16-db9084cec611"/>
+                                <OBJECT>
+                                  <ID name="" mc="Standard.NaryConnectorEnd" uid="32400576-c39d-47ed-b16d-3d6766835341"/>
+                                  <ATTRIBUTES>
+                                    <ATT name="IsOrdered">false</ATT>
+                                    <ATT name="IsUnique">false</ATT>
+                                    <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                                    <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                                    <ATT name="Name"></ATT>
+                                    <ATT name="status">1970354901745664</ATT>
+                                  </ATTRIBUTES>
+                                  <DEPENDENCIES>
+                                    <COMP relation="NaryLink">
+                                      <COMPID name="" mc="Standard.NaryConnector" uid="a8d7270d-b3ed-40c5-b350-66fbb08a10a9"/>
+                                    </COMP>
+                                    <LINK relation="Provider">
+                                      <REFOBJ>
+                                        <ID name="ProvidedInterface" mc="Standard.ProvidedInterface" uid="735e773b-dc5c-4e2c-8f07-dbdb6677c983"/>
+                                      </REFOBJ>
+                                    </LINK>
+                                  </DEPENDENCIES>
+                                </OBJECT>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                        <LINK relation="Consumer">
+                          <REFOBJ>
+                            <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="8c080191-ab34-4c1f-ab25-aa689edf618b"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Kasutajaliides" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Kontrolöri mobiililiides" version="4">
   <OBJECT>
-    <ID name="Kasutajaliides" mc="Standard.Component" uid="2980f8ce-01c1-4258-8c4d-a5e0ad8f1dbe"/>
+    <ID name="Kontrolöri mobiililiides" mc="Standard.Component" uid="7f9eef9f-bc4c-448b-a024-1da31a855b3e"/>
     <PID name="komponendid" mc="Standard.Package" uid="963621f8-18c7-4847-8d2d-919180374989"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,13 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Kasutajaliides]]></ATT>
+      <ATT name="Name"><![CDATA[Kontrolöri mobiililiides]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="InternalStructure">
         <OBJECT>
-          <ID name="Port" mc="Standard.Port" uid="02dfdd83-e693-4c6f-a650-8208fb201228"/>
+          <ID name="Port" mc="Standard.Port" uid="435373ea-b6e2-42e2-859e-4c13c8bc98da"/>
           <ATTRIBUTES>
             <ATT name="IsBehavior">false</ATT>
             <ATT name="IsService">true</ATT>
@@ -33,7 +33,7 @@
           <DEPENDENCIES>
             <COMP relation="Required">
               <OBJECT>
-                <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="6f7415ba-fa4c-4eb8-bbd7-80b2eb5334e8"/>
+                <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="36aa3510-b7ee-4cb9-94cd-faa3a5a55fbe"/>
                 <ATTRIBUTES>
                   <ATT name="Name"><![CDATA[RequiredInterface]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -43,7 +43,7 @@
             </COMP>
             <COMP relation="OwnedNaryEnd">
               <REFOBJ>
-                <ID name="" mc="Standard.NaryConnectorEnd" uid="f9bbeb50-401e-46ca-87ef-164aa34436bc"/>
+                <ID name="" mc="Standard.NaryConnectorEnd" uid="7fcfbe0e-f5ac-4a95-af18-fca934805f97"/>
               </REFOBJ>
             </COMP>
           </DEPENDENCIES>

@@ -17,7 +17,7 @@
     <DEPENDENCIES>
       <COMP relation="InternalStructure">
         <OBJECT>
-          <ID name="Port" mc="Standard.Port" uid="8ac8e54c-a1ba-4269-a857-93e314abf42f"/>
+          <ID name="Port" mc="Standard.Port" uid="d35b15c4-f686-4e74-b14d-331285b37230"/>
           <ATTRIBUTES>
             <ATT name="IsBehavior">false</ATT>
             <ATT name="IsService">true</ATT>
@@ -33,7 +33,7 @@
           <DEPENDENCIES>
             <COMP relation="Required">
               <OBJECT>
-                <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="910c5c83-f419-4771-8992-5d96ae04ca68"/>
+                <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="4f55c677-38cf-46cc-b6d1-bc06a3553d1a"/>
                 <ATTRIBUTES>
                   <ATT name="Name"><![CDATA[RequiredInterface]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -43,7 +43,7 @@
             </COMP>
             <COMP relation="OwnedNaryEnd">
               <REFOBJ>
-                <ID name="" mc="Standard.NaryConnectorEnd" uid="23e1724c-0dcb-4582-8845-83b0795f10d0"/>
+                <ID name="" mc="Standard.NaryConnectorEnd" uid="47475b37-591d-486e-84c4-9654b8aad85b"/>
               </REFOBJ>
             </COMP>
           </DEPENDENCIES>

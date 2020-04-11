@@ -14,13 +14,15 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="Linux Alpine RDBMS" mc="Standard.Node" uid="61b008c3-4cfe-4dac-9134-6dcbfd900eb4"/>
+        <COMPID name="Oracle RDBMS" mc="Standard.Node" uid="61b008c3-4cfe-4dac-9134-6dcbfd900eb4"/>
         <COMPID name="J2EE server cluster" mc="Standard.Node" uid="df115053-18b7-4911-9e48-c8460ff10683"/>
         <COMPID name="Parklate haldusüsteem (QuickPark)" mc="Standard.Node" uid="d311040d-eeec-4ddd-be82-265504b16387"/>
         <COMPID name="Linux Alpine" mc="Standard.Node" uid="8934edc6-ef21-47bc-b09f-5544f9cd89ea"/>
         <COMPID name="Veebilehitseja" mc="Standard.Node" uid="3f00d066-017c-460c-ac31-dd5b7fc94cc2"/>
         <COMPID name="Linux Alpine" mc="Standard.Node" uid="9f0b00a5-d3e2-4ebc-bf9f-f019ca115103"/>
         <COMPID name="NGINX Web server" mc="Standard.Node" uid="871654a0-9071-46a0-a452-ad1593efd7c2"/>
+        <COMPID name="Linux Alpine" mc="Standard.Node" uid="699266fd-6083-40d1-8e97-b2b721a4273a"/>
+        <COMPID name="Mobiilirakendus" mc="Standard.Node" uid="cc9a4dd4-a41a-418c-accf-e6b2732da3cf"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
