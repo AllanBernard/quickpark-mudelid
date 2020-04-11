@@ -24,6 +24,8 @@
         <COMPID name="Interval Data Management" mc="Standard.Component" uid="5bd5ea92-2839-484d-b0ac-82105253e446"/>
         <COMPID name="Kasutajaliides" mc="Standard.Component" uid="2980f8ce-01c1-4258-8c4d-a5e0ad8f1dbe"/>
         <COMPID name="Tõkkepuude kontrollsüsteem" mc="Standard.Component" uid="c80c949b-aeb9-4408-9c12-97eb1d11846c"/>
+        <COMPID name="Kontrolöri mobiililiides" mc="Standard.Component" uid="7f9eef9f-bc4c-448b-a024-1da31a855b3e"/>
+        <COMPID name="JMS Queue" mc="Standard.Component" uid="b334a06c-f4ce-403d-975f-6b95d2b1c688"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

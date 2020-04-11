@@ -14,7 +14,7 @@
     <DEPENDENCIES>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="" mc="Standard.AssociationEnd" uid="8c517acc-47d9-4988-85e9-57154dbc75e7"/>
+          <ID name="" mc="Standard.AssociationEnd" uid="2ceeb258-b660-4943-bd18-50a742833045"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -31,18 +31,29 @@
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="Linux Alpine" mc="Standard.Node" uid="699266fd-6083-40d1-8e97-b2b721a4273a"/>
+            </LINK>
             <COMP relation="Opposite">
               <REFOBJ>
-                <ID name="" mc="Standard.AssociationEnd" uid="cbef0a77-9cf6-430b-9c58-8c20c58919c4"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="07bec057-74ac-466a-b4b8-8fe9dbdffe2a"/>
               </REFOBJ>
             </COMP>
             <COMP relation="Association">
-              <REFOBJ>
-                <ID name="TCP/IP" mc="Standard.Association" uid="2ed67331-01ea-46e9-85d9-7c907770ba10"/>
-              </REFOBJ>
+              <OBJECT>
+                <ID name="TCP/IP" mc="Standard.Association" uid="b6f44c97-7f70-4990-82f4-f2410253f2db"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[TCP/IP]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
+        <REFOBJ>
+          <ID name="" mc="Standard.AssociationEnd" uid="8c517acc-47d9-4988-85e9-57154dbc75e7"/>
+        </REFOBJ>
         <OBJECT>
           <ID name="" mc="Standard.AssociationEnd" uid="bc1476d8-f721-4c50-9a48-25af2591bf19"/>
           <ATTRIBUTES>
@@ -61,9 +72,50 @@
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="Veebilehitseja" mc="Standard.Node" uid="3f00d066-017c-460c-ac31-dd5b7fc94cc2"/>
+            </LINK>
+            <COMP relation="Opposite">
+              <REFOBJ>
+                <ID name="" mc="Standard.AssociationEnd" uid="438ed769-9e24-443b-ba26-5cb8edd965b1"/>
+              </REFOBJ>
+            </COMP>
+            <COMP relation="Association">
+              <OBJECT>
+                <ID name="HTTP/HTML" mc="Standard.Association" uid="3a43f186-1751-4355-ab00-860be6b520a1"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[HTTP/HTML]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Standard.AssociationEnd" uid="066aa752-038f-45d0-a7f3-226542700fb8"/>
+          <ATTRIBUTES>
+            <ATT name="Aggregation">KindIsAssociation</ATT>
+            <ATT name="IsChangeable">true</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"></ATT>
+            <ATT name="MultiplicityMax"></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="NGINX Web server" mc="Standard.Node" uid="871654a0-9071-46a0-a452-ad1593efd7c2"/>
+            </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="438ed769-9e24-443b-ba26-5cb8edd965b1"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="88de418d-c3cc-4013-8234-7ddb63437a10"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -80,12 +132,15 @@
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
+                  <LINK relation="Target">
+                    <ID name="Linux Alpine" mc="Standard.Node" uid="8934edc6-ef21-47bc-b09f-5544f9cd89ea"/>
+                  </LINK>
                   <COMP relation="Opposite">
-                    <COMPID name="" mc="Standard.AssociationEnd" uid="bc1476d8-f721-4c50-9a48-25af2591bf19"/>
+                    <COMPID name="" mc="Standard.AssociationEnd" uid="066aa752-038f-45d0-a7f3-226542700fb8"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="HTTP/HTML" mc="Standard.Association" uid="3a43f186-1751-4355-ab00-860be6b520a1"/>
+                      <ID name="HTTP/HTML" mc="Standard.Association" uid="9b0d48d1-20fe-4abb-9a67-26093e5f0c9b"/>
                       <ATTRIBUTES>
                         <ATT name="Name"><![CDATA[HTTP/HTML]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -93,36 +148,63 @@
                       <DEPENDENCIES></DEPENDENCIES>
                     </OBJECT>
                   </COMP>
-                  <COMP relation="Descriptor">
-                    <OBJECT>
-                      <ID name="" mc="Infrastructure.Note" uid="d869312b-4662-46a4-98eb-8e700cc862a4"/>
-                      <ATTRIBUTES>
-                        <ATT name="Content"><![CDATA[<Enter note text here>]]></ATT>
-                        <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
-                        <ATT name="Name"></ATT>
-                        <ATT name="status">1970354901745664</ATT>
-                      </ATTRIBUTES>
-                      <DEPENDENCIES>
-                        <LINK relation="Model">
-                          <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
-                        </LINK>
-                      </DEPENDENCIES>
-                    </OBJECT>
-                  </COMP>
                 </DEPENDENCIES>
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="HTTP/HTML" mc="Standard.Association" uid="3a43f186-1751-4355-ab00-860be6b520a1"/>
+              <COMPID name="HTTP/HTML" mc="Standard.Association" uid="9b0d48d1-20fe-4abb-9a67-26093e5f0c9b"/>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="72ea395d-5439-4e46-88f2-4ffbe2496b59"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[<Enter note text here>]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
-        <REFOBJ>
-          <ID name="" mc="Standard.AssociationEnd" uid="2ceeb258-b660-4943-bd18-50a742833045"/>
-        </REFOBJ>
-        <REFOBJ>
-          <ID name="" mc="Standard.AssociationEnd" uid="066aa752-038f-45d0-a7f3-226542700fb8"/>
-        </REFOBJ>
+        <OBJECT>
+          <ID name="" mc="Standard.AssociationEnd" uid="5145ed9e-21e8-4877-9141-6d4c5a0616fa"/>
+          <ATTRIBUTES>
+            <ATT name="Aggregation">KindIsAssociation</ATT>
+            <ATT name="IsChangeable">true</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"></ATT>
+            <ATT name="MultiplicityMax"></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="Mobiilirakendus" mc="Standard.Node" uid="cc9a4dd4-a41a-418c-accf-e6b2732da3cf"/>
+            </LINK>
+            <COMP relation="Opposite">
+              <REFOBJ>
+                <ID name="" mc="Standard.AssociationEnd" uid="dbefaa52-6588-4015-ac86-57fd73d5e185"/>
+              </REFOBJ>
+            </COMP>
+            <COMP relation="Association">
+              <REFOBJ>
+                <ID name="HTTP/HTML" mc="Standard.Association" uid="2cbe49a0-43d0-48d4-b669-b9036aa9f6fe"/>
+              </REFOBJ>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
       </COMP>
       <COMP relation="InternalStructure">
         <OBJECT>

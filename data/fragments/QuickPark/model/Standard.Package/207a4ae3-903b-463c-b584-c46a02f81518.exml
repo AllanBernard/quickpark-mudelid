@@ -13,6 +13,9 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Järgnevusdiagrammid" mc="Standard.Interaction" uid="c0a2bfb1-042b-46cc-b6cc-e8f09e69ee16"/>
+      </COMP>
       <COMP relation="Product">
         <COMPID name="Äriinfo mudel" mc="Standard.ClassDiagram" uid="b54dcdc5-ff21-4c44-9726-0f93962dbe08"/>
         <COMPID name="Kasutusmallid" mc="Standard.UseCaseDiagram" uid="01b2a5de-7115-44b5-b91b-d9ae08d09a23"/>
