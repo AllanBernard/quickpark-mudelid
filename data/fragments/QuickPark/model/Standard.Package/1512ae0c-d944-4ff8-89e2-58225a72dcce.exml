@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ontoloogia olemid" version="4">
+  <OBJECT>
+    <ID name="ontoloogia olemid" mc="Standard.Package" uid="1512ae0c-d944-4ff8-89e2-58225a72dcce"/>
+    <PID name="quickpark" mc="Standard.Package" uid="92330519-f50c-4556-a6d6-b2c213446fa3"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ontoloogia olemid]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Avatud" mc="Standard.Class" uid="9feb9cbb-bdd0-4f4f-92ff-3ab02e039b29"/>
+        <COMPID name="Suletud" mc="Standard.Class" uid="4026acd3-4060-4bfd-9e91-2f8c7f7106b4"/>
+        <COMPID name="Registrimärk" mc="Standard.Class" uid="0e852e48-0e41-492f-9c4b-3e04fa484d66"/>
+        <COMPID name="Füüsiline isik" mc="Standard.Class" uid="6b49c7f4-e63f-4566-b553-7b898fedc119"/>
+        <COMPID name="Juriidiline isik" mc="Standard.Class" uid="4e7c1a7e-231f-4c15-b20a-054579bebb81"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

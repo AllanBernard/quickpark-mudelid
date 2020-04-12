@@ -22,6 +22,7 @@
         <COMPID name="seosed" mc="Standard.Package" uid="0ce36462-4bd1-45e1-bcf7-9a106a7c19fb"/>
         <COMPID name="komponendid" mc="Standard.Package" uid="963621f8-18c7-4847-8d2d-919180374989"/>
         <COMPID name="riistvara" mc="Standard.Package" uid="98a8da37-14f4-47d1-9e68-2d8712962897"/>
+        <COMPID name="ontoloogia olemid" mc="Standard.Package" uid="1512ae0c-d944-4ff8-89e2-58225a72dcce"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
