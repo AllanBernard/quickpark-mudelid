@@ -14,7 +14,6 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="mudelid" mc="Standard.Package" uid="207a4ae3-903b-463c-b584-c46a02f81518"/>
         <COMPID name="andmeolemid" mc="Standard.Package" uid="f65bc687-cbc8-476c-9e0a-4dab60b9c80b"/>
         <COMPID name="äriinfo olemid" mc="Standard.Package" uid="923d2d26-aea3-4486-b7a7-9300a995b163"/>
         <COMPID name="aktorid" mc="Standard.Package" uid="9b36fc91-690b-45da-8ac7-ccd1c32409d8"/>
@@ -23,6 +22,7 @@
         <COMPID name="komponendid" mc="Standard.Package" uid="963621f8-18c7-4847-8d2d-919180374989"/>
         <COMPID name="riistvara" mc="Standard.Package" uid="98a8da37-14f4-47d1-9e68-2d8712962897"/>
         <COMPID name="ontoloogia olemid" mc="Standard.Package" uid="1512ae0c-d944-4ff8-89e2-58225a72dcce"/>
+        <COMPID name="mudelid" mc="Standard.Package" uid="207a4ae3-903b-463c-b584-c46a02f81518"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

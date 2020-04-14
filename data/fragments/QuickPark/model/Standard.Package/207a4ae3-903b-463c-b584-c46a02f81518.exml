@@ -22,6 +22,7 @@
         <COMPID name="Komponentide mudel" mc="Standard.ClassDiagram" uid="bf381197-8c73-4f96-9c61-706784fc4dc1"/>
         <COMPID name="Evitusdiagramm" mc="Standard.DeploymentDiagram" uid="f10e7bb3-24b3-4ab7-8c4c-97c13fff5ea2"/>
         <COMPID name="Ontoloogia mudel" mc="Standard.ClassDiagram" uid="a5f7cdd9-9fc6-4166-bc68-f03daa046813"/>
+        <COMPID name="Kasutusmallid 2" mc="Standard.UseCaseDiagram" uid="94d9597f-a0c0-4647-a762-eb148dd6b99c"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
