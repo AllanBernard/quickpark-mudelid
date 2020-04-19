@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UC07 Numbrimärgi muutuse fikseerimine" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Numbrimärgi fikseerimine" version="4">
   <OBJECT>
-    <ID name="UC07 Numbrimärgi muutuse fikseerimine" mc="Standard.UseCase" uid="37873c54-9d4c-48c4-a7cc-4fc66bb3f081"/>
+    <ID name="Numbrimärgi fikseerimine" mc="Standard.UseCase" uid="37873c54-9d4c-48c4-a7cc-4fc66bb3f081"/>
     <PID name="kasutusmallid" mc="Standard.Package" uid="8d8c701c-f6b1-4f65-88d1-1703ae5ff0ae"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,7 +9,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[UC07 Numbrimärgi muutuse fikseerimine]]></ATT>
+      <ATT name="Name"><![CDATA[Numbrimärgi fikseerimine]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
@@ -22,7 +22,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="UC03 Parkimise alustamine avatud parklas" mc="Standard.UseCase" uid="779f3c04-84a6-4a2f-910c-55f635bf8e39"/>
+              <ID name="UC03 Aegajada fikseerimine avatud parklas" mc="Standard.UseCase" uid="779f3c04-84a6-4a2f-910c-55f635bf8e39"/>
             </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="extend" mc="Infrastructure.Stereotype" uid="00000000-0000-9c48-0000-000000000000"/>
@@ -30,44 +30,14 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="8b5726b9-d1ee-47ab-8329-aa207446960d"/>
+          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="25c85bb7-957c-40f4-a4c9-59842e435e0b"/>
           <ATTRIBUTES>
             <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="UC04 Parkimise lõpetamine avatud parklas" mc="Standard.UseCase" uid="c27593af-d98d-4594-8c13-a44fc797c989"/>
-            </LINK>
-            <LINK relation="Extension">
-              <FOREIGNID name="extend" mc="Infrastructure.Stereotype" uid="00000000-0000-9c48-0000-000000000000"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="abcbef4b-2855-4660-aee8-19b7ed8e5341"/>
-          <ATTRIBUTES>
-            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Target">
-              <ID name="UC05 Parkimise alustamine suletud parklas" mc="Standard.UseCase" uid="49640cef-bc65-49b8-8684-3f6a625fd144"/>
-            </LINK>
-            <LINK relation="Extension">
-              <FOREIGNID name="extend" mc="Infrastructure.Stereotype" uid="00000000-0000-9c48-0000-000000000000"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="55e79269-930e-499a-8bce-6321a63fdeeb"/>
-          <ATTRIBUTES>
-            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Target">
-              <ID name="UC06 Parkimise lõpetamine suletud parklas" mc="Standard.UseCase" uid="dc682f8b-68ef-498f-bc68-850b5f0f1584"/>
+              <ID name="UC04 Aegjada fikseerimine suletud parklas" mc="Standard.UseCase" uid="5f508148-b9be-49ed-8222-760b1b923732"/>
             </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="extend" mc="Infrastructure.Stereotype" uid="00000000-0000-9c48-0000-000000000000"/>
@@ -95,7 +65,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Kaamera" mc="Standard.Actor" uid="7804bbd3-897b-4d8f-a522-3ee57309dd2c"/>
+              <ID name="Parkimise tuvastamine" mc="Standard.Actor" uid="7804bbd3-897b-4d8f-a522-3ee57309dd2c"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>

@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UC09 Aegjadade koostamine" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UC05 Aegjadade koostamine" version="4">
   <OBJECT>
-    <ID name="UC09 Aegjadade koostamine" mc="Standard.UseCase" uid="985e27fd-2982-4adf-9b70-11c8d720dc49"/>
+    <ID name="UC05 Aegjadade koostamine" mc="Standard.UseCase" uid="985e27fd-2982-4adf-9b70-11c8d720dc49"/>
     <PID name="kasutusmallid" mc="Standard.Package" uid="8d8c701c-f6b1-4f65-88d1-1703ae5ff0ae"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,91 +9,60 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[UC09 Aegjadade koostamine]]></ATT>
+      <ATT name="Name"><![CDATA[UC05 Aegjadade koostamine]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="Used">
         <OBJECT>
-          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="22b788f5-1109-4ddc-8515-3dc31736ddc0"/>
+          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="00d51707-432f-4432-b2b0-42af23f379bf"/>
           <ATTRIBUTES>
             <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="UC08 Intervallide salvestamine" mc="Standard.UseCase" uid="d4574497-70a5-47b5-9441-0ab24d83f18a"/>
+              <ID name="UC03 Aegajada fikseerimine avatud parklas" mc="Standard.UseCase" uid="779f3c04-84a6-4a2f-910c-55f635bf8e39"/>
             </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="extend" mc="Infrastructure.Stereotype" uid="00000000-0000-9c48-0000-000000000000"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
-      </COMP>
-      <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="" mc="Standard.AssociationEnd" uid="c1aa6bee-ed04-4ee3-aca7-67372bf9d522"/>
+          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="934dd5dc-1cf7-4f0e-aa2f-619d6c45cacd"/>
           <ATTRIBUTES>
-            <ATT name="Aggregation">KindIsAssociation</ATT>
-            <ATT name="IsChangeable">true</ATT>
-            <ATT name="Changeable">ReadWrite</ATT>
-            <ATT name="IsDerived">false</ATT>
-            <ATT name="IsOrdered">false</ATT>
-            <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="IsClass">false</ATT>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"></ATT>
+            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="KIS" mc="Standard.Actor" uid="04486720-09f9-4df3-a356-b921bec17ff3"/>
+              <ID name="UC04 Aegjada fikseerimine suletud parklas" mc="Standard.UseCase" uid="5f508148-b9be-49ed-8222-760b1b923732"/>
             </LINK>
-            <COMP relation="Opposite">
-              <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="d5f3a908-71cb-4388-8232-18ac4f693267"/>
-                <ATTRIBUTES>
-                  <ATT name="Aggregation">KindIsAssociation</ATT>
-                  <ATT name="IsChangeable">true</ATT>
-                  <ATT name="Changeable">ReadWrite</ATT>
-                  <ATT name="IsDerived">false</ATT>
-                  <ATT name="IsOrdered">false</ATT>
-                  <ATT name="IsUnique">false</ATT>
-                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
-                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-                  <ATT name="Visibility">Public</ATT>
-                  <ATT name="IsClass">false</ATT>
-                  <ATT name="IsAbstract">false</ATT>
-                  <ATT name="Name"></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <COMP relation="Opposite">
-                    <COMPID name="" mc="Standard.AssociationEnd" uid="c1aa6bee-ed04-4ee3-aca7-67372bf9d522"/>
-                  </COMP>
-                  <COMP relation="Association">
-                    <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="bc6efd31-6351-4bfd-be94-2ee28725713d"/>
-                      <ATTRIBUTES>
-                        <ATT name="Name"></ATT>
-                        <ATT name="status">1970354901745664</ATT>
-                      </ATTRIBUTES>
-                      <DEPENDENCIES></DEPENDENCIES>
-                    </OBJECT>
-                  </COMP>
-                </DEPENDENCIES>
-              </OBJECT>
-            </COMP>
-            <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="bc6efd31-6351-4bfd-be94-2ee28725713d"/>
-            </COMP>
+            <LINK relation="Extension">
+              <FOREIGNID name="extend" mc="Infrastructure.Stereotype" uid="00000000-0000-9c48-0000-000000000000"/>
+            </LINK>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Standard.AssociationEnd" uid="ba934fd2-04fe-405d-932c-bea86581272f"/>
+          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="f5b8f298-bdde-4496-8710-d21428fbb19e"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="UC06 Intervallide salvestamine" mc="Standard.UseCase" uid="d4574497-70a5-47b5-9441-0ab24d83f18a"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="include" mc="Infrastructure.Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedEnd">
+        <OBJECT>
+          <ID name="" mc="Standard.AssociationEnd" uid="7d6df2ae-e0bd-434f-b16e-97130a4f978f"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -111,11 +80,11 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Parkimise IS" mc="Standard.Actor" uid="41cddc66-8c35-4886-9211-686e1a65e9f6"/>
+              <ID name="KIS" mc="Standard.Actor" uid="0d99da15-f382-40ff-86de-6ee9e5a5e792"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="47a89f20-01f7-4e3f-a2c1-c2b4374bd6e7"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="82524f9b-0c97-483b-8b5e-b6e61c7836da"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -133,11 +102,11 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="" mc="Standard.AssociationEnd" uid="ba934fd2-04fe-405d-932c-bea86581272f"/>
+                    <COMPID name="" mc="Standard.AssociationEnd" uid="7d6df2ae-e0bd-434f-b16e-97130a4f978f"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="1b2f4c36-4111-4061-b115-4cae97817d39"/>
+                      <ID name="" mc="Standard.Association" uid="91a26f4e-b9ff-44bd-8150-ed9f89aab580"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -149,7 +118,7 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="1b2f4c36-4111-4061-b115-4cae97817d39"/>
+              <COMPID name="" mc="Standard.Association" uid="91a26f4e-b9ff-44bd-8150-ed9f89aab580"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>

@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Kaamera" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Parkimise tuvastamine" version="4">
   <OBJECT>
-    <ID name="Kaamera" mc="Standard.Actor" uid="7804bbd3-897b-4d8f-a522-3ee57309dd2c"/>
+    <ID name="Parkimise tuvastamine" mc="Standard.Actor" uid="7804bbd3-897b-4d8f-a522-3ee57309dd2c"/>
     <PID name="kasutusmallid" mc="Standard.Package" uid="8d8c701c-f6b1-4f65-88d1-1703ae5ff0ae"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,7 +9,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Kaamera]]></ATT>
+      <ATT name="Name"><![CDATA[Parkimise tuvastamine]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>

@@ -20,33 +20,16 @@
         <COMPID name="Arve koostamine" mc="Standard.UseCase" uid="b8078393-d2ca-4b6f-ad96-f023a7edee1f"/>
         <COMPID name="UC01 Parkimine avatud parklas" mc="Standard.UseCase" uid="fb7a91a7-06c4-49a0-b7b9-232a5f310adf"/>
         <COMPID name="UC02 Parkimine suletud parklas" mc="Standard.UseCase" uid="dc25b8b8-af27-44d1-a78a-544e436dccf9"/>
-        <COMPID name="UC03 Parkimise alustamine avatud parklas" mc="Standard.UseCase" uid="779f3c04-84a6-4a2f-910c-55f635bf8e39"/>
-        <COMPID name="UC04 Parkimise lõpetamine avatud parklas" mc="Standard.UseCase" uid="c27593af-d98d-4594-8c13-a44fc797c989"/>
-        <COMPID name="UC05 Parkimise alustamine suletud parklas" mc="Standard.UseCase" uid="49640cef-bc65-49b8-8684-3f6a625fd144"/>
-        <COMPID name="UC06 Parkimise lõpetamine suletud parklas" mc="Standard.UseCase" uid="dc682f8b-68ef-498f-bc68-850b5f0f1584"/>
-        <COMPID name="UC07 Numbrimärgi muutuse fikseerimine" mc="Standard.UseCase" uid="37873c54-9d4c-48c4-a7cc-4fc66bb3f081"/>
-        <COMPID name="UC09 Aegjadade koostamine" mc="Standard.UseCase" uid="985e27fd-2982-4adf-9b70-11c8d720dc49"/>
-        <COMPID name="UC10 Tõkkepuu avamine" mc="Standard.UseCase" uid="e11a1e2d-0157-4252-bc51-1d24a3506d33"/>
-        <COMPID name="UC11 Tõkkepuu sulgemine" mc="Standard.UseCase" uid="1cad3e24-dda3-4996-aa6b-443dc367507b"/>
-        <COMPID name="UC12 Kasutajakonto loomine" mc="Standard.UseCase" uid="942c7d33-4d9c-43c9-8a09-b452066dbdb6"/>
-        <COMPID name="UC13 Vastutava omaniku määramine" mc="Standard.UseCase" uid="ee2ed3da-bd3b-448e-8bed-7c9c02a1507d"/>
-        <COMPID name="UC14 Kasutajate haldamine" mc="Standard.UseCase" uid="c48ded78-d08e-4a39-9734-a077f3a2c21f"/>
-        <COMPID name="UC15 Sõidukite haldamine" mc="Standard.UseCase" uid="e16dd189-7b0f-4028-ba8c-902c3367ce2d"/>
-        <COMPID name="UC16 Parkimiste ajaloo vaatamine" mc="Standard.UseCase" uid="62645036-fae6-4966-b2ab-4b03adfcb525"/>
-        <COMPID name="UC17 Arvete vaatamine" mc="Standard.UseCase" uid="6c06c706-a6b1-4d31-8f11-70dbabf1cc2c"/>
-        <COMPID name="UC18 Parklate lisamine" mc="Standard.UseCase" uid="575f6a91-c67a-48bb-be57-5ae91ceff86b"/>
-        <COMPID name="UC20 Parkimiskorra lisamine" mc="Standard.UseCase" uid="c1aefbf1-bb01-47ea-9baf-e7b564801cc9"/>
-        <COMPID name="UC19 Hinnaklassi lisamine" mc="Standard.UseCase" uid="fbc9e669-c3f6-4ab2-895c-ea937d3bd35a"/>
-        <COMPID name="UC21 Tõkkepuu sidumine" mc="Standard.UseCase" uid="6ff76a15-fdb6-4a1f-8864-e54dbedff055"/>
-        <COMPID name="UC22 Kaamera sidumine" mc="Standard.UseCase" uid="c6849fef-a8e4-4931-8e59-49086dde487f"/>
-        <COMPID name="UC08 Intervallide salvestamine" mc="Standard.UseCase" uid="d4574497-70a5-47b5-9441-0ab24d83f18a"/>
+        <COMPID name="UC03 Aegajada fikseerimine avatud parklas" mc="Standard.UseCase" uid="779f3c04-84a6-4a2f-910c-55f635bf8e39"/>
+        <COMPID name="Numbrimärgi fikseerimine" mc="Standard.UseCase" uid="37873c54-9d4c-48c4-a7cc-4fc66bb3f081"/>
+        <COMPID name="UC05 Aegjadade koostamine" mc="Standard.UseCase" uid="985e27fd-2982-4adf-9b70-11c8d720dc49"/>
+        <COMPID name="UC07 IEC sõnumi saatmine" mc="Standard.UseCase" uid="1cad3e24-dda3-4996-aa6b-443dc367507b"/>
+        <COMPID name="UC06 Intervallide salvestamine" mc="Standard.UseCase" uid="d4574497-70a5-47b5-9441-0ab24d83f18a"/>
         <COMPID name="Klient" mc="Standard.Actor" uid="5b265231-007f-43ec-ae94-14265eb69ac2"/>
-        <COMPID name="KIS" mc="Standard.Actor" uid="04486720-09f9-4df3-a356-b921bec17ff3"/>
-        <COMPID name="Kaamera" mc="Standard.Actor" uid="7804bbd3-897b-4d8f-a522-3ee57309dd2c"/>
-        <COMPID name="Administraator" mc="Standard.Actor" uid="69c4b4bd-79d7-4b14-af3a-af56bdb3be26"/>
-        <COMPID name="Interval Data Management" mc="Standard.Actor" uid="7c136279-d459-448a-bb87-0e40d931e90c"/>
+        <COMPID name="Parkimise tuvastamine" mc="Standard.Actor" uid="7804bbd3-897b-4d8f-a522-3ee57309dd2c"/>
+        <COMPID name="Parkimisandmete haldus" mc="Standard.Actor" uid="7c136279-d459-448a-bb87-0e40d931e90c"/>
         <COMPID name="Tõkkepuude kontrollsüsteem" mc="Standard.Actor" uid="1f7c4841-842f-421d-a1cd-192ca3ab50d6"/>
-        <COMPID name="Parkimise IS" mc="Standard.Actor" uid="41cddc66-8c35-4886-9211-686e1a65e9f6"/>
+        <COMPID name="Parklate IS" mc="Standard.Actor" uid="41cddc66-8c35-4886-9211-686e1a65e9f6"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
