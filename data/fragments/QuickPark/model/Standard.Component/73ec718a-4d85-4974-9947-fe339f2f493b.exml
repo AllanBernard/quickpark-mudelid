@@ -52,6 +52,8 @@
       <COMP relation="OwnedElement">
         <COMPID name="Parklate haldus" mc="Standard.Component" uid="e17882b5-668b-4b1f-a2d3-d570c7fb4239"/>
         <COMPID name="Hindade haldus" mc="Standard.Component" uid="e602dae5-8aad-4b18-ac66-a43743334c3d"/>
+        <COMPID name="IEC liides" mc="Standard.Component" uid="65f3211c-5b58-4367-b32b-7dced35ae260"/>
+        <COMPID name="Kontrolöri liides" mc="Standard.Component" uid="91b1c5fa-4874-496d-bede-16fb4fac74ec"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

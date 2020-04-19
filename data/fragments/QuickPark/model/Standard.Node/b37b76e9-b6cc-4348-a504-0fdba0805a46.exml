@@ -1,20 +1,20 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SCADA" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Linux Alpine" version="4">
   <OBJECT>
-    <ID name="SCADA" mc="Standard.Node" uid="d311040d-eeec-4ddd-be82-265504b16387"/>
-    <PID name="Geovision ANPR / LPR " mc="Standard.Package" uid="fc8f47b3-1e1f-4f5f-91fa-366025763ea7"/>
+    <ID name="Linux Alpine" mc="Standard.Node" uid="b37b76e9-b6cc-4348-a504-0fdba0805a46"/>
+    <PID name="Dell PowerEdge R640 (dpe1)" mc="Standard.Package" uid="0948e0a5-8a5f-483b-a2bc-66085af1b1e7"/>
     <ATTRIBUTES>
       <ATT name="IsAbstract">false</ATT>
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[SCADA]]></ATT>
+      <ATT name="Name"><![CDATA[Linux Alpine]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="" mc="Standard.AssociationEnd" uid="cbef0a77-9cf6-430b-9c58-8c20c58919c4"/>
+          <ID name="" mc="Standard.AssociationEnd" uid="fb99dee5-6542-4bca-a73e-e7e2af279e1d"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -32,11 +32,11 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Red Hat Linux 6.1" mc="Standard.Node" uid="8934edc6-ef21-47bc-b09f-5544f9cd89ea"/>
+              <ID name="Linux Alpine" mc="Standard.Node" uid="699266fd-6083-40d1-8e97-b2b721a4273a"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="8c517acc-47d9-4988-85e9-57154dbc75e7"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="86f882c3-1167-44ba-8205-828694de2687"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -53,17 +53,14 @@
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
-                  <LINK relation="Target">
-                    <ID name="SCADA" mc="Standard.Node" uid="d311040d-eeec-4ddd-be82-265504b16387"/>
-                  </LINK>
                   <COMP relation="Opposite">
-                    <COMPID name="" mc="Standard.AssociationEnd" uid="cbef0a77-9cf6-430b-9c58-8c20c58919c4"/>
+                    <COMPID name="" mc="Standard.AssociationEnd" uid="fb99dee5-6542-4bca-a73e-e7e2af279e1d"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="IEC" mc="Standard.Association" uid="2ed67331-01ea-46e9-85d9-7c907770ba10"/>
+                      <ID name="TLS (REST)" mc="Standard.Association" uid="921c51f8-8a83-4189-bfce-2375000b2815"/>
                       <ATTRIBUTES>
-                        <ATT name="Name"><![CDATA[IEC]]></ATT>
+                        <ATT name="Name"><![CDATA[TLS (REST)]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES></DEPENDENCIES>
@@ -73,11 +70,11 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="IEC" mc="Standard.Association" uid="2ed67331-01ea-46e9-85d9-7c907770ba10"/>
+              <COMPID name="TLS (REST)" mc="Standard.Association" uid="921c51f8-8a83-4189-bfce-2375000b2815"/>
             </COMP>
             <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="be2cc5ca-b6b3-4493-96d3-f508b30bcded"/>
+                <ID name="" mc="Infrastructure.Note" uid="7f466aa9-b26f-425b-98a6-65faad9cd4ed"/>
                 <ATTRIBUTES>
                   <ATT name="Content"><![CDATA[<Enter note text here>]]></ATT>
                   <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -96,7 +93,7 @@
       </COMP>
       <COMP relation="InternalStructure">
         <OBJECT>
-          <ID name="" mc="Standard.BindableInstance" uid="56840afb-c923-448b-9bf6-6a42f2e04d4b"/>
+          <ID name="" mc="Standard.BindableInstance" uid="7e7f15bf-5d4d-48f9-b42e-fbbbb668be9f"/>
           <ATTRIBUTES>
             <ATT name="IsConstant">false</ATT>
             <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
@@ -106,74 +103,59 @@
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
-            <LINK relation="Base">
-              <ID name="Parkimise tuvastamine" mc="Standard.Component" uid="a596b02a-8496-4fa8-9be0-257c6acc5471"/>
-            </LINK>
-            <COMP relation="Part">
+            <COMP relation="OwnedEnd">
               <OBJECT>
-                <ID name="Port" mc="Standard.Port" uid="ce5613d4-a74f-45e8-a467-e96c3ab48a94"/>
+                <ID name="" mc="Standard.LinkEnd" uid="89e7b57d-65a9-426e-9f77-e3bf48c1bb35"/>
                 <ATTRIBUTES>
-                  <ATT name="IsBehavior">false</ATT>
-                  <ATT name="IsService">true</ATT>
-                  <ATT name="IsConjugated">false</ATT>
-                  <ATT name="Direction">None</ATT>
-                  <ATT name="IsConstant">false</ATT>
-                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
                   <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-                  <ATT name="Value"></ATT>
-                  <ATT name="Name"><![CDATA[Port]]></ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
-                  <COMP relation="Provided">
+                  <COMP relation="Link">
                     <OBJECT>
-                      <ID name="ProvidedInterface" mc="Standard.ProvidedInterface" uid="d25a1c6a-edfb-4e18-ac39-4859a20c7748"/>
+                      <ID name="" mc="Standard.Link" uid="57518a93-43e4-4f63-a24f-5d9d98730ca7"/>
                       <ATTRIBUTES>
-                        <ATT name="Name"><![CDATA[ProvidedInterface]]></ATT>
+                        <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES></DEPENDENCIES>
                     </OBJECT>
                   </COMP>
-                  <LINK relation="RepresentedFeature">
+                  <LINK relation="Target">
                     <REFOBJ>
-                      <ID name="Port" mc="Standard.Port" uid="b144c06b-3016-42e9-8e78-a07c2c7a8d40"/>
+                      <ID name="" mc="Standard.BindableInstance" uid="64e85e37-2085-47fc-b157-eb8db9f62113"/>
                     </REFOBJ>
                   </LINK>
+                  <COMP relation="Opposite">
+                    <OBJECT>
+                      <ID name="" mc="Standard.LinkEnd" uid="460c89d2-e67d-4b68-b441-eb6edda3bf2f"/>
+                      <ATTRIBUTES>
+                        <ATT name="IsOrdered">false</ATT>
+                        <ATT name="IsUnique">false</ATT>
+                        <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                        <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="Link">
+                          <COMPID name="" mc="Standard.Link" uid="57518a93-43e4-4f63-a24f-5d9d98730ca7"/>
+                        </COMP>
+                        <COMP relation="Opposite">
+                          <COMPID name="" mc="Standard.LinkEnd" uid="89e7b57d-65a9-426e-9f77-e3bf48c1bb35"/>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
                 </DEPENDENCIES>
               </OBJECT>
             </COMP>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="" mc="Standard.BindableInstance" uid="6735d94a-1120-4340-8dac-a4b60282b575"/>
-          <ATTRIBUTES>
-            <ATT name="IsConstant">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Value"></ATT>
-            <ATT name="Name"></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
             <LINK relation="Base">
-              <ID name="Tõkkepuude kontrollsüsteem" mc="Standard.Component" uid="c80c949b-aeb9-4408-9c12-97eb1d11846c"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="" mc="Standard.BindableInstance" uid="fe454670-487a-4b89-95d0-b3b9472ad46f"/>
-          <ATTRIBUTES>
-            <ATT name="IsConstant">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Value"></ATT>
-            <ATT name="Name"></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Base">
-              <ID name="(Kaamerate süsteem)" mc="Standard.Component" uid="e762fc5f-4151-471f-9f4e-75f0c81f24b8"/>
+              <ID name="Intervallruuter" mc="Standard.Component" uid="0fe8e64c-6acc-4db4-b24b-a0980984d584"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>

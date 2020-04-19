@@ -14,15 +14,12 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="Oracle RDBMS" mc="Standard.Node" uid="61b008c3-4cfe-4dac-9134-6dcbfd900eb4"/>
-        <COMPID name="J2EE server cluster" mc="Standard.Node" uid="df115053-18b7-4911-9e48-c8460ff10683"/>
-        <COMPID name="Parklate haldusüsteem (QuickPark)" mc="Standard.Node" uid="d311040d-eeec-4ddd-be82-265504b16387"/>
-        <COMPID name="Linux Alpine" mc="Standard.Node" uid="8934edc6-ef21-47bc-b09f-5544f9cd89ea"/>
-        <COMPID name="Veebilehitseja" mc="Standard.Node" uid="3f00d066-017c-460c-ac31-dd5b7fc94cc2"/>
-        <COMPID name="Linux Alpine" mc="Standard.Node" uid="9f0b00a5-d3e2-4ebc-bf9f-f019ca115103"/>
-        <COMPID name="NGINX Web server" mc="Standard.Node" uid="871654a0-9071-46a0-a452-ad1593efd7c2"/>
-        <COMPID name="Linux Alpine" mc="Standard.Node" uid="699266fd-6083-40d1-8e97-b2b721a4273a"/>
-        <COMPID name="Mobiilirakendus" mc="Standard.Node" uid="cc9a4dd4-a41a-418c-accf-e6b2732da3cf"/>
+        <COMPID name="Dell PowerEdge R640 (dpe1)" mc="Standard.Package" uid="0948e0a5-8a5f-483b-a2bc-66085af1b1e7"/>
+        <COMPID name="Dell PowerEdge R540  (dpe2)" mc="Standard.Package" uid="cb49a2cb-aa5a-48fc-9948-67426ff08b49"/>
+        <COMPID name="Dell PowerEdge R240/R440 klaster (dpec)" mc="Standard.Package" uid="a4634ee1-0105-48d7-89f4-e7722b7edcf7"/>
+        <COMPID name="Mobiiliseade" mc="Standard.Package" uid="59509902-5782-4bae-b565-a6e8047b44d0"/>
+        <COMPID name="PC / MAC / LINUX" mc="Standard.Package" uid="7962e94c-46b9-4d89-a2bb-a69fbf062887"/>
+        <COMPID name="Geovision ANPR / LPR " mc="Standard.Package" uid="fc8f47b3-1e1f-4f5f-91fa-366025763ea7"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

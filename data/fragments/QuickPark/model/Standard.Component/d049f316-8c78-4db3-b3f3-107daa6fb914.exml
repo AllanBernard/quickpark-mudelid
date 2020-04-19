@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Kliendiandmete tabel" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Aegjadade haldus" version="4">
   <OBJECT>
-    <ID name="Kliendiandmete tabel" mc="Standard.Component" uid="b98c30ce-5772-4460-ae92-5be2df0edc98"/>
-    <PID name="DBMS" mc="Standard.Component" uid="8a42e1a5-510a-4d95-98c4-f72fb1a0a447"/>
+    <ID name="Aegjadade haldus" mc="Standard.Component" uid="d049f316-8c78-4db3-b3f3-107daa6fb914"/>
+    <PID name="Tarbimisandmete haldus" mc="Standard.Component" uid="5bd5ea92-2839-484d-b0ac-82105253e446"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Kliendiandmete tabel]]></ATT>
+      <ATT name="Name"><![CDATA[Aegjadade haldus]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES></DEPENDENCIES>

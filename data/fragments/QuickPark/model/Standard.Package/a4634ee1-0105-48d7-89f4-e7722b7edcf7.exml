@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Dell PowerEdge R240/R440 klaster (dpec)" version="4">
+  <OBJECT>
+    <ID name="Dell PowerEdge R240/R440 klaster (dpec)" mc="Standard.Package" uid="a4634ee1-0105-48d7-89f4-e7722b7edcf7"/>
+    <PID name="riistvara" mc="Standard.Package" uid="98a8da37-14f4-47d1-9e68-2d8712962897"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Dell PowerEdge R240/R440 klaster (dpec)]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="J2EE server cluster" mc="Standard.Node" uid="df115053-18b7-4911-9e48-c8460ff10683"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

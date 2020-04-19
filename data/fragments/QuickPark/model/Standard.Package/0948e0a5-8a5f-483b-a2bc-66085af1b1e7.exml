@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Dell PowerEdge R640 (dpe1)" version="4">
+  <OBJECT>
+    <ID name="Dell PowerEdge R640 (dpe1)" mc="Standard.Package" uid="0948e0a5-8a5f-483b-a2bc-66085af1b1e7"/>
+    <PID name="riistvara" mc="Standard.Package" uid="98a8da37-14f4-47d1-9e68-2d8712962897"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Dell PowerEdge R640 (dpe1)]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Linux Alpine" mc="Standard.Node" uid="871654a0-9071-46a0-a452-ad1593efd7c2"/>
+        <COMPID name="Linux Alpine" mc="Standard.Node" uid="699266fd-6083-40d1-8e97-b2b721a4273a"/>
+        <COMPID name="Red Hat Linux 6.1" mc="Standard.Node" uid="8934edc6-ef21-47bc-b09f-5544f9cd89ea"/>
+        <COMPID name="Linux Alpine" mc="Standard.Node" uid="91c42907-35bd-4627-967a-1f82a1fcdf52"/>
+        <COMPID name="Linux Alpine" mc="Standard.Node" uid="525eaddc-bd26-444b-8a05-fd85f30ea95c"/>
+        <COMPID name="Linux Alpine" mc="Standard.Node" uid="b37b76e9-b6cc-4348-a504-0fdba0805a46"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

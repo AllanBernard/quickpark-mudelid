@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Oracle RDBMS" version="4">
   <OBJECT>
     <ID name="Oracle RDBMS" mc="Standard.Node" uid="61b008c3-4cfe-4dac-9134-6dcbfd900eb4"/>
-    <PID name="riistvara" mc="Standard.Package" uid="98a8da37-14f4-47d1-9e68-2d8712962897"/>
+    <PID name="Dell PowerEdge R540  (dpe2)" mc="Standard.Package" uid="cb49a2cb-aa5a-48fc-9948-67426ff08b49"/>
     <ATTRIBUTES>
       <ATT name="IsAbstract">false</ATT>
       <ATT name="IsLeaf">false</ATT>
@@ -13,44 +13,9 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedEnd">
-        <OBJECT>
+        <REFOBJ>
           <ID name="" mc="Standard.AssociationEnd" uid="3be0354d-0f41-41ef-8caa-ef235735abdd"/>
-          <ATTRIBUTES>
-            <ATT name="Aggregation">KindIsAssociation</ATT>
-            <ATT name="IsChangeable">true</ATT>
-            <ATT name="Changeable">ReadWrite</ATT>
-            <ATT name="IsDerived">false</ATT>
-            <ATT name="IsOrdered">false</ATT>
-            <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"></ATT>
-            <ATT name="MultiplicityMax"></ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="IsClass">false</ATT>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Target">
-              <ID name="NGINX Web server" mc="Standard.Node" uid="871654a0-9071-46a0-a452-ad1593efd7c2"/>
-            </LINK>
-            <COMP relation="Opposite">
-              <REFOBJ>
-                <ID name="" mc="Standard.AssociationEnd" uid="b06ef7ff-276e-432c-86b7-9d5bfe5da6bf"/>
-              </REFOBJ>
-            </COMP>
-            <COMP relation="Association">
-              <OBJECT>
-                <ID name="JDBC" mc="Standard.Association" uid="aacedc49-314c-461a-821b-c3b2e7885417"/>
-                <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[JDBC]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES></DEPENDENCIES>
-              </OBJECT>
-            </COMP>
-          </DEPENDENCIES>
-        </OBJECT>
+        </REFOBJ>
       </COMP>
       <COMP relation="InternalStructure">
         <OBJECT>
@@ -65,7 +30,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Base">
-              <ID name="Intervall andmete skeema" mc="Standard.Component" uid="32bdbb54-d994-4338-85dd-2a40dcf2debb"/>
+              <ID name="Tarbimisandmete tabel" mc="Standard.Component" uid="32bdbb54-d994-4338-85dd-2a40dcf2debb"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
@@ -81,7 +46,23 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Base">
-              <ID name="Kliendi andmete skeema" mc="Standard.Component" uid="b98c30ce-5772-4460-ae92-5be2df0edc98"/>
+              <ID name="Kliendiandmete tabel" mc="Standard.Component" uid="b98c30ce-5772-4460-ae92-5be2df0edc98"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Standard.BindableInstance" uid="1003277e-08cb-4a8d-883b-180bffc75b90"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="Parklasüsteemi tabel" mc="Standard.Component" uid="c4b802af-f462-4789-a60b-5dde03a3ee45"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>

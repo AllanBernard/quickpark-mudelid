@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Kontrolöri mobiililiides" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Kontrolöri mobiilirakendus" version="4">
   <OBJECT>
-    <ID name="Kontrolöri mobiililiides" mc="Standard.Component" uid="7f9eef9f-bc4c-448b-a024-1da31a855b3e"/>
+    <ID name="Kontrolöri mobiilirakendus" mc="Standard.Component" uid="7f9eef9f-bc4c-448b-a024-1da31a855b3e"/>
     <PID name="komponendid" mc="Standard.Package" uid="963621f8-18c7-4847-8d2d-919180374989"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Kontrolöri mobiililiides]]></ATT>
+      <ATT name="Name"><![CDATA[Kontrolöri mobiilirakendus]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>

@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Geovision ANPR / LPR " version="4">
+  <OBJECT>
+    <ID name="Geovision ANPR / LPR " mc="Standard.Package" uid="fc8f47b3-1e1f-4f5f-91fa-366025763ea7"/>
+    <PID name="riistvara" mc="Standard.Package" uid="98a8da37-14f4-47d1-9e68-2d8712962897"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Geovision ANPR / LPR ]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Geovision" mc="Standard.Node" uid="d311040d-eeec-4ddd-be82-265504b16387"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

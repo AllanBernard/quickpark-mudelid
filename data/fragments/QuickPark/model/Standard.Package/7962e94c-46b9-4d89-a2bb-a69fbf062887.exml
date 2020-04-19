@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="PC / MAC / LINUX" version="4">
+  <OBJECT>
+    <ID name="PC / MAC / LINUX" mc="Standard.Package" uid="7962e94c-46b9-4d89-a2bb-a69fbf062887"/>
+    <PID name="riistvara" mc="Standard.Package" uid="98a8da37-14f4-47d1-9e68-2d8712962897"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[PC / MAC / LINUX]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Veebilehitseja" mc="Standard.Node" uid="3f00d066-017c-460c-ac31-dd5b7fc94cc2"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

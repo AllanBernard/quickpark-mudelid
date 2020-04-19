@@ -1,20 +1,23 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Linux Alpine" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Redis cache" version="4">
   <OBJECT>
-    <ID name="Linux Alpine" mc="Standard.Node" uid="9f0b00a5-d3e2-4ebc-bf9f-f019ca115103"/>
-    <PID name="riistvara" mc="Standard.Package" uid="98a8da37-14f4-47d1-9e68-2d8712962897"/>
+    <ID name="Redis cache" mc="Standard.Component" uid="ed790a6e-56e4-4142-92f4-adb6b4117d36"/>
+    <PID name="komponendid" mc="Standard.Package" uid="963621f8-18c7-4847-8d2d-919180374989"/>
     <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
       <ATT name="IsAbstract">false</ATT>
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Linux Alpine]]></ATT>
+      <ATT name="Name"><![CDATA[Redis cache]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="" mc="Standard.AssociationEnd" uid="0c08f8d5-6219-4f70-b803-65d53cdce915"/>
+          <ID name="" mc="Standard.AssociationEnd" uid="3077493b-cbcf-49d7-bf40-245fedb23987"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -31,12 +34,9 @@
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
-            <LINK relation="Target">
-              <ID name="NGINX Web server" mc="Standard.Node" uid="871654a0-9071-46a0-a452-ad1593efd7c2"/>
-            </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="e3ff2e7c-2666-42b9-a311-b95515fb70cb"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="d1841636-fd93-40be-bd47-9f2d4f2a6771"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -53,17 +53,14 @@
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
-                  <LINK relation="Target">
-                    <ID name="Linux Alpine" mc="Standard.Node" uid="9f0b00a5-d3e2-4ebc-bf9f-f019ca115103"/>
-                  </LINK>
                   <COMP relation="Opposite">
-                    <COMPID name="" mc="Standard.AssociationEnd" uid="0c08f8d5-6219-4f70-b803-65d53cdce915"/>
+                    <COMPID name="" mc="Standard.AssociationEnd" uid="3077493b-cbcf-49d7-bf40-245fedb23987"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="REST - JSON" mc="Standard.Association" uid="66596159-02ed-4306-b263-6f39ab132745"/>
+                      <ID name="" mc="Standard.Association" uid="bbfe95f5-50cf-4aba-8649-d3596e5c1ff7"/>
                       <ATTRIBUTES>
-                        <ATT name="Name"><![CDATA[REST - JSON]]></ATT>
+                        <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES></DEPENDENCIES>
@@ -73,29 +70,10 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="REST - JSON" mc="Standard.Association" uid="66596159-02ed-4306-b263-6f39ab132745"/>
-            </COMP>
-            <COMP relation="Descriptor">
-              <OBJECT>
-                <ID name="" mc="Infrastructure.Note" uid="199d7c7a-30c7-4284-8c91-8e35e80ec8bc"/>
-                <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[<Enter note text here>]]></ATT>
-                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
-                  <ATT name="Name"></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="Model">
-                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
+              <COMPID name="" mc="Standard.Association" uid="bbfe95f5-50cf-4aba-8649-d3596e5c1ff7"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
-      </COMP>
-      <COMP relation="OwnedElement">
-        <COMPID name="Java 8" mc="Standard.Node" uid="137c848c-35b3-46d7-86a1-5b1cdec73544"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

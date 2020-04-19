@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Intervall andmete skeema" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Tarbimisandmete tabel" version="4">
   <OBJECT>
-    <ID name="Intervall andmete skeema" mc="Standard.Component" uid="32bdbb54-d994-4338-85dd-2a40dcf2debb"/>
+    <ID name="Tarbimisandmete tabel" mc="Standard.Component" uid="32bdbb54-d994-4338-85dd-2a40dcf2debb"/>
     <PID name="DBMS" mc="Standard.Component" uid="8a42e1a5-510a-4d95-98c4-f72fb1a0a447"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Intervall andmete skeema]]></ATT>
+      <ATT name="Name"><![CDATA[Tarbimisandmete tabel]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES></DEPENDENCIES>

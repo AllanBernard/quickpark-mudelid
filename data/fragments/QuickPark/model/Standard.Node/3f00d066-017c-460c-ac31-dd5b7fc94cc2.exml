@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Veebilehitseja" version="4">
   <OBJECT>
     <ID name="Veebilehitseja" mc="Standard.Node" uid="3f00d066-017c-460c-ac31-dd5b7fc94cc2"/>
-    <PID name="riistvara" mc="Standard.Package" uid="98a8da37-14f4-47d1-9e68-2d8712962897"/>
+    <PID name="PC / MAC / LINUX" mc="Standard.Package" uid="7962e94c-46b9-4d89-a2bb-a69fbf062887"/>
     <ATTRIBUTES>
       <ATT name="IsAbstract">false</ATT>
       <ATT name="IsLeaf">false</ATT>
@@ -32,7 +32,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Linux Alpine" mc="Standard.Node" uid="8934edc6-ef21-47bc-b09f-5544f9cd89ea"/>
+              <ID name="Red Hat Linux 6.1" mc="Standard.Node" uid="8934edc6-ef21-47bc-b09f-5544f9cd89ea"/>
             </LINK>
             <COMP relation="Opposite">
               <REFOBJ>
