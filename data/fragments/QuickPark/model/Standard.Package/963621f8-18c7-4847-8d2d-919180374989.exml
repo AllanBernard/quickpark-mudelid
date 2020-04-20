@@ -27,6 +27,7 @@
         <COMPID name="ActiveMQ" mc="Standard.Component" uid="b6051829-ec52-4859-9347-a51541d916a3"/>
         <COMPID name="ELK Stack" mc="Standard.Component" uid="fab84bcc-8426-4511-9ee7-34ab8f4cc3eb"/>
         <COMPID name="Intervallruuter" mc="Standard.Component" uid="0fe8e64c-6acc-4db4-b24b-a0980984d584"/>
+        <COMPID name="Geovision ANPR / LPR" mc="Standard.Component" uid="09fff813-92e2-4a45-81a8-369cac9b8c0e"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
