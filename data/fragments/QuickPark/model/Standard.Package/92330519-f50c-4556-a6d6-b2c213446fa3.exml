@@ -13,8 +13,11 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Communication Interaction" mc="Standard.CommunicationInteraction" uid="88f726a5-e75f-4698-b7c5-a50317242897"/>
+      </COMP>
       <COMP relation="OwnedElement">
-        <COMPID name="Äriinfo" mc="Standard.Package" uid="207a4ae3-903b-463c-b584-c46a02f81518"/>
+        <COMPID name="äriinfo" mc="Standard.Package" uid="207a4ae3-903b-463c-b584-c46a02f81518"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
