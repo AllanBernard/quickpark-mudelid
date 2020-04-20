@@ -1,14 +1,14 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="J2EE server cluster" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Kubernetes cluster" version="4">
   <OBJECT>
-    <ID name="J2EE server cluster" mc="Standard.Node" uid="df115053-18b7-4911-9e48-c8460ff10683"/>
-    <PID name="Dell PowerEdge R240/R440 klaster (dpec)" mc="Standard.Package" uid="a4634ee1-0105-48d7-89f4-e7722b7edcf7"/>
+    <ID name="Kubernetes cluster" mc="Standard.Node" uid="df115053-18b7-4911-9e48-c8460ff10683"/>
+    <PID name="Dell PowerEdge R240/R440 klaster" mc="Standard.Package" uid="a4634ee1-0105-48d7-89f4-e7722b7edcf7"/>
     <ATTRIBUTES>
       <ATT name="IsAbstract">false</ATT>
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[J2EE server cluster]]></ATT>
+      <ATT name="Name"><![CDATA[Kubernetes cluster]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
@@ -30,7 +30,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Base">
-              <ID name="Tarbimisandmete haldus" mc="Standard.Component" uid="5bd5ea92-2839-484d-b0ac-82105253e446"/>
+              <ID name="Parkimisandmete haldus" mc="Standard.Component" uid="5bd5ea92-2839-484d-b0ac-82105253e446"/>
             </LINK>
             <COMP relation="Part">
               <OBJECT>
@@ -135,7 +135,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Base">
-              <ID name="Parkimise infosüsteem" mc="Standard.Component" uid="73ec718a-4d85-4974-9947-fe339f2f493b"/>
+              <ID name="Parklate infosüsteem" mc="Standard.Component" uid="73ec718a-4d85-4974-9947-fe339f2f493b"/>
             </LINK>
             <COMP relation="Part">
               <OBJECT>

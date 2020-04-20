@@ -14,21 +14,20 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="Parkimise tuvastamine" mc="Standard.Component" uid="a596b02a-8496-4fa8-9be0-257c6acc5471"/>
         <COMPID name="KIS" mc="Standard.Component" uid="6040d5cf-1052-4447-83f6-36d322ec2d43"/>
-        <COMPID name="Parkimise infosüsteem" mc="Standard.Component" uid="73ec718a-4d85-4974-9947-fe339f2f493b"/>
-        <COMPID name="API Gateway" mc="Standard.Component" uid="b20c3caf-d6e8-429a-8470-3b463480800c"/>
+        <COMPID name="Parklate infosüsteem" mc="Standard.Component" uid="73ec718a-4d85-4974-9947-fe339f2f493b"/>
+        <COMPID name="NGINX" mc="Standard.Component" uid="b20c3caf-d6e8-429a-8470-3b463480800c"/>
         <COMPID name="Tulemüür" mc="Standard.Component" uid="036dcb84-8d7e-4e4f-b62d-a1f5790def79"/>
         <COMPID name="DBMS" mc="Standard.Component" uid="8a42e1a5-510a-4d95-98c4-f72fb1a0a447"/>
         <COMPID name="WEB Frontend" mc="Standard.Component" uid="fdebadd9-bd68-4782-a952-8d39222988d1"/>
-        <COMPID name="Tarbimisandmete haldus" mc="Standard.Component" uid="5bd5ea92-2839-484d-b0ac-82105253e446"/>
+        <COMPID name="Parkimisandmete haldus" mc="Standard.Component" uid="5bd5ea92-2839-484d-b0ac-82105253e446"/>
         <COMPID name="Kasutajaliides" mc="Standard.Component" uid="2980f8ce-01c1-4258-8c4d-a5e0ad8f1dbe"/>
-        <COMPID name="Tõkkepuude kontrollsüsteem" mc="Standard.Component" uid="c80c949b-aeb9-4408-9c12-97eb1d11846c"/>
-        <COMPID name="Kontrolöri mobiililiides" mc="Standard.Component" uid="7f9eef9f-bc4c-448b-a024-1da31a855b3e"/>
+        <COMPID name="Kontrolöri mobiilirakendus" mc="Standard.Component" uid="7f9eef9f-bc4c-448b-a024-1da31a855b3e"/>
         <COMPID name="Redis cache" mc="Standard.Component" uid="ed790a6e-56e4-4142-92f4-adb6b4117d36"/>
         <COMPID name="ActiveMQ" mc="Standard.Component" uid="b6051829-ec52-4859-9347-a51541d916a3"/>
         <COMPID name="ELK Stack" mc="Standard.Component" uid="fab84bcc-8426-4511-9ee7-34ab8f4cc3eb"/>
         <COMPID name="Intervallruuter" mc="Standard.Component" uid="0fe8e64c-6acc-4db4-b24b-a0980984d584"/>
+        <COMPID name="Geovision ANPR / LPR" mc="Standard.Component" uid="09fff813-92e2-4a45-81a8-369cac9b8c0e"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

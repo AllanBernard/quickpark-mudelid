@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Koormusjaotur" version="4">
   <OBJECT>
     <ID name="Koormusjaotur" mc="Standard.Component" uid="de0eb99d-1179-4c02-a988-b56c4550baf2"/>
-    <PID name="API GateWay" mc="Standard.Component" uid="b20c3caf-d6e8-429a-8470-3b463480800c"/>
+    <PID name="NGINX" mc="Standard.Component" uid="b20c3caf-d6e8-429a-8470-3b463480800c"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>

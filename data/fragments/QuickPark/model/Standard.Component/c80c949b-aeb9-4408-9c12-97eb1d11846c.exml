@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Tõkkepuude kontrollsüsteem" version="4">
   <OBJECT>
     <ID name="Tõkkepuude kontrollsüsteem" mc="Standard.Component" uid="c80c949b-aeb9-4408-9c12-97eb1d11846c"/>
-    <PID name="komponendid" mc="Standard.Package" uid="963621f8-18c7-4847-8d2d-919180374989"/>
+    <PID name="Geovision ANPR / LPR" mc="Standard.Component" uid="09fff813-92e2-4a45-81a8-369cac9b8c0e"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -31,6 +31,16 @@
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
+            <COMP relation="Provided">
+              <OBJECT>
+                <ID name="ProvidedInterface" mc="Standard.ProvidedInterface" uid="4b87e250-5952-4e43-b849-e57f93f71d4b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[ProvidedInterface]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
             <COMP relation="Required">
               <OBJECT>
                 <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="134f9c10-09e0-4732-bcc0-29f5a192a57f"/>
@@ -40,11 +50,6 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES></DEPENDENCIES>
               </OBJECT>
-            </COMP>
-            <COMP relation="OwnedNaryEnd">
-              <REFOBJ>
-                <ID name="" mc="Standard.NaryConnectorEnd" uid="5498b2e3-d7a6-4b8c-ac75-0aadf5478945"/>
-              </REFOBJ>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>

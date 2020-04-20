@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Parkimise tuvastamine" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="geo-dlq" version="4">
   <OBJECT>
-    <ID name="Parkimise tuvastamine" mc="Standard.Component" uid="a596b02a-8496-4fa8-9be0-257c6acc5471"/>
-    <PID name="Geovision ANPR / LPR" mc="Standard.Component" uid="09fff813-92e2-4a45-81a8-369cac9b8c0e"/>
+    <ID name="geo-dlq" mc="Standard.Component" uid="79b0cf22-33fa-4461-9e76-653fded3464a"/>
+    <PID name="ActiveMQ" mc="Standard.Component" uid="b6051829-ec52-4859-9347-a51541d916a3"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Parkimise tuvastamine]]></ATT>
+      <ATT name="Name"><![CDATA[geo-dlq]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES></DEPENDENCIES>
