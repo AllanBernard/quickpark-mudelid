@@ -17,7 +17,7 @@
     <DEPENDENCIES>
       <COMP relation="InternalStructure">
         <OBJECT>
-          <ID name="Port1" mc="Standard.Port" uid="7462bb25-4c19-49e6-9094-209663041e87"/>
+          <ID name="IEC listener" mc="Standard.Port" uid="7462bb25-4c19-49e6-9094-209663041e87"/>
           <ATTRIBUTES>
             <ATT name="IsBehavior">false</ATT>
             <ATT name="IsService">true</ATT>
@@ -27,7 +27,7 @@
             <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
             <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
             <ATT name="Value"></ATT>
-            <ATT name="Name"><![CDATA[Port1]]></ATT>
+            <ATT name="Name"><![CDATA[IEC listener]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -46,22 +46,6 @@
                 <ID name="" mc="Standard.NaryConnectorEnd" uid="9a5cd57d-ce79-440f-b4b4-0dd62cf412fd"/>
               </REFOBJ>
             </COMP>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="" mc="Standard.BindableInstance" uid="d8641cc0-164d-4bd5-a8a4-6618526dfa50"/>
-          <ATTRIBUTES>
-            <ATT name="IsConstant">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Value"></ATT>
-            <ATT name="Name"></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Base">
-              <ID name="IEC liides" mc="Standard.Component" uid="65f3211c-5b58-4367-b32b-7dced35ae260"/>
-            </LINK>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>

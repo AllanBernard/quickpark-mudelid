@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Kliendiandmete tabel" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Parklaandmete baas (PAR_DB)" version="4">
   <OBJECT>
-    <ID name="Kliendiandmete tabel" mc="Standard.Component" uid="b98c30ce-5772-4460-ae92-5be2df0edc98"/>
+    <ID name="Parklaandmete baas (PAR_DB)" mc="Standard.Component" uid="b98c30ce-5772-4460-ae92-5be2df0edc98"/>
     <PID name="DBMS" mc="Standard.Component" uid="8a42e1a5-510a-4d95-98c4-f72fb1a0a447"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Kliendiandmete tabel]]></ATT>
+      <ATT name="Name"><![CDATA[Parklaandmete baas (PAR_DB)]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES></DEPENDENCIES>

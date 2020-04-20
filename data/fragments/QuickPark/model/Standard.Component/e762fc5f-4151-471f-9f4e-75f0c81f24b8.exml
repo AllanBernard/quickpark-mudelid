@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="(Kaamerate süsteem)" version="4">
   <OBJECT>
     <ID name="(Kaamerate süsteem)" mc="Standard.Component" uid="e762fc5f-4151-471f-9f4e-75f0c81f24b8"/>
-    <PID name="Parkimise tuvastamine" mc="Standard.Component" uid="a596b02a-8496-4fa8-9be0-257c6acc5471"/>
+    <PID name="Geovision ANPR / LPR" mc="Standard.Component" uid="09fff813-92e2-4a45-81a8-369cac9b8c0e"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>

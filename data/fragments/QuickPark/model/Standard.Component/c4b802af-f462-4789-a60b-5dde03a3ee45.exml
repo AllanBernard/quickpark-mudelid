@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Parklasüsteemi tabel" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Intervallandmete baas (IDM_DB)" version="4">
   <OBJECT>
-    <ID name="Parklasüsteemi tabel" mc="Standard.Component" uid="c4b802af-f462-4789-a60b-5dde03a3ee45"/>
+    <ID name="Intervallandmete baas (IDM_DB)" mc="Standard.Component" uid="c4b802af-f462-4789-a60b-5dde03a3ee45"/>
     <PID name="DBMS" mc="Standard.Component" uid="8a42e1a5-510a-4d95-98c4-f72fb1a0a447"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Parklasüsteemi tabel]]></ATT>
+      <ATT name="Name"><![CDATA[Intervallandmete baas (IDM_DB)]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES></DEPENDENCIES>

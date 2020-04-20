@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Oracle RDBMS" version="4">
   <OBJECT>
     <ID name="Oracle RDBMS" mc="Standard.Node" uid="61b008c3-4cfe-4dac-9134-6dcbfd900eb4"/>
-    <PID name="Dell PowerEdge R540  (dpe2)" mc="Standard.Package" uid="cb49a2cb-aa5a-48fc-9948-67426ff08b49"/>
+    <PID name="Dell PowerEdge R540" mc="Standard.Package" uid="cb49a2cb-aa5a-48fc-9948-67426ff08b49"/>
     <ATTRIBUTES>
       <ATT name="IsAbstract">false</ATT>
       <ATT name="IsLeaf">false</ATT>
@@ -30,7 +30,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Base">
-              <ID name="Tarbimisandmete tabel" mc="Standard.Component" uid="32bdbb54-d994-4338-85dd-2a40dcf2debb"/>
+              <ID name="Kliendiandmete baas (KIS_DB)" mc="Standard.Component" uid="32bdbb54-d994-4338-85dd-2a40dcf2debb"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
@@ -46,7 +46,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Base">
-              <ID name="Kliendiandmete tabel" mc="Standard.Component" uid="b98c30ce-5772-4460-ae92-5be2df0edc98"/>
+              <ID name="Parklaandmete baas (PAR_DB)" mc="Standard.Component" uid="b98c30ce-5772-4460-ae92-5be2df0edc98"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
@@ -62,7 +62,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Base">
-              <ID name="Parklasüsteemi tabel" mc="Standard.Component" uid="c4b802af-f462-4789-a60b-5dde03a3ee45"/>
+              <ID name="Intervallandmete baas (IDM_DB)" mc="Standard.Component" uid="c4b802af-f462-4789-a60b-5dde03a3ee45"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>

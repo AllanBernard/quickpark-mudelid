@@ -15,89 +15,10 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
-      <COMP relation="InternalStructure">
-        <OBJECT>
-          <ID name="Port" mc="Standard.Port" uid="ea737b99-dcd1-4ea8-b8da-72d075aaaf97"/>
-          <ATTRIBUTES>
-            <ATT name="IsBehavior">false</ATT>
-            <ATT name="IsService">true</ATT>
-            <ATT name="IsConjugated">false</ATT>
-            <ATT name="Direction">None</ATT>
-            <ATT name="IsConstant">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Value"></ATT>
-            <ATT name="Name"><![CDATA[Port]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <COMP relation="Provided">
-              <OBJECT>
-                <ID name="ProvidedInterface" mc="Standard.ProvidedInterface" uid="cf9562c2-d241-43eb-be29-72b0c18b9dd8"/>
-                <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[ProvidedInterface]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES></DEPENDENCIES>
-              </OBJECT>
-            </COMP>
-            <COMP relation="OwnedNaryEnd">
-              <OBJECT>
-                <ID name="" mc="Standard.NaryConnectorEnd" uid="e43d48c9-3dd2-49fe-a432-0f2bb10fff24"/>
-                <ATTRIBUTES>
-                  <ATT name="IsOrdered">false</ATT>
-                  <ATT name="IsUnique">false</ATT>
-                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
-                  <ATT name="Name"></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <COMP relation="NaryLink">
-                    <OBJECT>
-                      <ID name="" mc="Standard.NaryConnector" uid="d59e0059-7f7f-4f2a-bd15-36373fc562b8"/>
-                      <ATTRIBUTES>
-                        <ATT name="Name"></ATT>
-                        <ATT name="status">1970354901745664</ATT>
-                      </ATTRIBUTES>
-                      <DEPENDENCIES>
-                        <COMP relation="NaryLinkEnd">
-                          <OBJECT>
-                            <ID name="" mc="Standard.NaryConnectorEnd" uid="69dea368-8bc3-45e8-9d00-dd24723c1d19"/>
-                            <ATTRIBUTES>
-                              <ATT name="IsOrdered">false</ATT>
-                              <ATT name="IsUnique">false</ATT>
-                              <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-                              <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
-                              <ATT name="Name"></ATT>
-                              <ATT name="status">1970354901745664</ATT>
-                            </ATTRIBUTES>
-                            <DEPENDENCIES>
-                              <COMP relation="NaryLink">
-                                <COMPID name="" mc="Standard.NaryConnector" uid="d59e0059-7f7f-4f2a-bd15-36373fc562b8"/>
-                              </COMP>
-                              <LINK relation="Consumer">
-                                <REFOBJ>
-                                  <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="a8d10c51-6d91-46fa-a3e3-db1cf6057130"/>
-                                </REFOBJ>
-                              </LINK>
-                            </DEPENDENCIES>
-                          </OBJECT>
-                          <COMPID name="" mc="Standard.NaryConnectorEnd" uid="e43d48c9-3dd2-49fe-a432-0f2bb10fff24"/>
-                        </COMP>
-                      </DEPENDENCIES>
-                    </OBJECT>
-                  </COMP>
-                  <LINK relation="Provider">
-                    <REFOBJ>
-                      <ID name="ProvidedInterface" mc="Standard.ProvidedInterface" uid="cf9562c2-d241-43eb-be29-72b0c18b9dd8"/>
-                    </REFOBJ>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-            </COMP>
-          </DEPENDENCIES>
-        </OBJECT>
+      <COMP relation="OwnedElement">
+        <COMPID name="geo-incoming" mc="Standard.Component" uid="db1b0f84-0c64-4190-92e9-fbed36f5ecde"/>
+        <COMPID name="geo-processed" mc="Standard.Component" uid="1982fe4d-c78c-40a5-82b6-d9e53f5ab320"/>
+        <COMPID name="geo-dlq" mc="Standard.Component" uid="79b0cf22-33fa-4461-9e76-653fded3464a"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

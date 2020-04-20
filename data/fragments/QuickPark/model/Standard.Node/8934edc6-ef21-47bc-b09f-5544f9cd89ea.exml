@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Red Hat Linux 6.1" version="4">
   <OBJECT>
     <ID name="Red Hat Linux 6.1" mc="Standard.Node" uid="8934edc6-ef21-47bc-b09f-5544f9cd89ea"/>
-    <PID name="Dell PowerEdge R640 (dpe1)" mc="Standard.Package" uid="0948e0a5-8a5f-483b-a2bc-66085af1b1e7"/>
+    <PID name="Dell PowerEdge R640" mc="Standard.Package" uid="0948e0a5-8a5f-483b-a2bc-66085af1b1e7"/>
     <ATTRIBUTES>
       <ATT name="IsAbstract">false</ATT>
       <ATT name="IsLeaf">false</ATT>
@@ -273,9 +273,9 @@
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="REST" mc="Standard.Association" uid="237c4ecc-97e9-424c-ab03-e127ef27be53"/>
+                      <ID name="TLS (REST)" mc="Standard.Association" uid="237c4ecc-97e9-424c-ab03-e127ef27be53"/>
                       <ATTRIBUTES>
-                        <ATT name="Name"><![CDATA[REST]]></ATT>
+                        <ATT name="Name"><![CDATA[TLS (REST)]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES></DEPENDENCIES>
@@ -285,7 +285,7 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="REST" mc="Standard.Association" uid="237c4ecc-97e9-424c-ab03-e127ef27be53"/>
+              <COMPID name="TLS (REST)" mc="Standard.Association" uid="237c4ecc-97e9-424c-ab03-e127ef27be53"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
